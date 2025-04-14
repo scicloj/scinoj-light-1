@@ -202,6 +202,7 @@ Speaker: Eoin
 
 As part of the Irish democratic process, members of parliament can submit questions to government departments and the answers are routinely published online. For this session, I will look at how this data could potentially be used to build a RAG model that can compile answers to typical questions asked of the government. I will also look at some basic ways we can try to test these approaches. 
 
-#### 18:50-19:20 AI discussion
+#### 18:50-19:20 RAGs discussion
+Speakers: Paula, Eoin
 
 #### 19:30-20:00 Conclusion
