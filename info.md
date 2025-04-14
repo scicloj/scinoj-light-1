@@ -1,27 +1,27 @@
 # SciNoj Light info
 
 ## Speakers
-Cvetomir M. Dimov
-Eoin Carney
-Daniel Slutsky
-Harold
-Heather Moore-Farley
-Jelena Losic
-Juan Monetta
-Julius Kibunjia
-Kira Howe
-K. Ram Narayan
-Lorelai Lyons
-Naimish Mani B.
-Paula Gearon
-Siyoung Byun
+* Cvetomir M. Dimov
+* Eoin Carney
+* Daniel Slutsky
+* Harold
+* Heather Moore-Farley
+* Jelena Losic
+* Juan Monetta
+* Julius Kibunjia
+* Kira Howe
+* K. Ram Narayan
+* Lorelai Lyons
+* Naimish Mani B.
+* Paula Gearon
+* Siyoung Byun
 
 ## Hosts
-Adham Omran
-Aditya Athalye
-Daniel Slutsky
-Kiran Kulkarni
-Lorelai Lyons
+* Adham Omran
+* Aditya Athalye
+* Daniel Slutsky
+* Kiran Kulkarni
+* Lorelai Lyons
 
 ## Bios
 
