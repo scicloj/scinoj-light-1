@@ -142,7 +142,7 @@ Speakers: Harold, Daniel
 This session is intended to provide the audience with a technical background for the more concrete data analysis sessions in the conference.
  We will introduce a few of the [libraries](https://scicloj.github.io/noj/noj_book.underlying_libraries.html) behind the [Noj](https://scicloj.github.io/noj/) toolkit and practice using them to process, analyse, and visualize real-world data.
 
-### Tea break
+#### Tea break
 
 #### 19:00-19:50 Brain Data in Clojure
 Speaker: Lorelai
@@ -151,7 +151,7 @@ This is an introductory talk to the field of Brain-Computer Interfacing, and how
 
 The session also invites a broader conversation about the ethical implications of brain-computer interfaces, and how developers can meaningfully contribute to this rapidly evolving field. This talk is for anyone curious about brain data, functional programming, or building new tools at the edge of human-computer interaction.
 
-### 20:00-20:50 Tea break
+#### 20:00-20:50 Tea break
 
 ### Sat May 17th
 
