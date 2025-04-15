@@ -137,7 +137,7 @@ This session is intended to provide the audience with a technical background for
 #### RAGgedy Ann's Big Adventure
 Speaker: Paula
 
-An introductory session for LLMs, Embeddings, and RAG systems
+An introductory session for LLMs, Embeddings, and RAG systems.
 
 ### Data analysis talks
 
