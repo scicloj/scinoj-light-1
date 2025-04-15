@@ -116,29 +116,25 @@ Speaker: Daniel
 
 This session will offer a brief intro to probability theory concepts and then use them to explain common statistical methods. It will repeat some content from our [May 10th workshop](https://scicloj.github.io/blog/data-analyis-with-clojure-free-workshop-may-10th-initial-survey/) so we can discuss it further at the conference.
 
-#### 12:00-12:50 Studying planning with a novel video game
-Speaker: Cvetomir
-
-Tik Tik is a novel video game that we developed to study individual and collaborative planning. Here we use this video game to study individual planning. We developed multiple levels for this task and tested these levels in a series of studies. These studies allowed us to identify a set of levels that lie within the capabilities of the general population. Moreover, they allowed us to determine level parameters that determine level difficulty. 
-
-#### 13:00-13:50 Brain Data in Clojure
-Speaker: Lorelai
-
-This is an introductory talk to the field of Brain-Computer Interfacing, and how Clojure can power intuitive, composable data workflows for real-world brain data. Drawing from my journey through BCI research, I’ll demonstrate how Clojure's unique strengths simplify signal processing, data visualization, and working with APIs such as the OpenBCI 'BrainFlow' API.
-
-The session also invites a broader conversation about the ethical implications of brain-computer interfaces, and how developers can meaningfully contribute to this rapidly evolving field. This talk is for anyone curious about brain data, functional programming, or building new tools at the edge of human-computer interaction.
-
-#### 14:00-14:20 Tea break
-
-#### 14:30-15:50 Linear Foundations and Nonlinear Frontiers: A Journey Through Mathematical Methods
+#### 12:00-13:20 Linear Foundations and Nonlinear Frontiers: A Journey Through Mathematical Methods
 Speaker: Jelena
 
 Our session isn’t just about listing techniques, it’s about the journey. We’ll explore how we move from the simplicity of linear models towards tackling the complex challenges real-world data throws at us. It’s about understanding our starting point and then, step by step, embracing the evolution that leads to breakthrough solutions.
 
-#### 16:00-16:50 Analyzing Nairobi Bus Routes with Graph Algorithms and Agent-based Simulation
-Speaker: Julius
+#### 13:30-14:50 RAGgedy Ann's Big Adventure
+Speaker: Paula
 
-An exploration of Nairobi's new and existing bus routes  to compare differences in traffic congestion, transit time and ease of travel between points. We build a graph representation of the routes on which we compute metrics and assess the behavior of agents in a simulation.
+An introductory session for LLMs, Embeddings, and RAG systems
+
+#### 15:00-15:50 Parliamentary Questions and Answers: Using noj to explore basic RAG techniques
+Speaker: Eoin
+
+As part of the Irish democratic process, members of parliament can submit questions to government departments and the answers are routinely published online. For this session, I will look at how this data could potentially be used to build a RAG model that can compile answers to typical questions asked of the government. I will also look at some basic ways we can try to test these approaches. 
+
+#### 15:50-16:20 RAGs discussion
+Speakers: Paula, Eoin
+
+#### 16:30-16:50 Tea break
 
 #### 17:00-18:20 Noj deep dive
 Speakers: Harold, Daniel
@@ -146,12 +142,16 @@ Speakers: Harold, Daniel
 This session is intended to provide the audience with a technical background for the more concrete data analysis sessions in the conference.
  We will introduce a few of the [libraries](https://scicloj.github.io/noj/noj_book.underlying_libraries.html) behind the [Noj](https://scicloj.github.io/noj/) toolkit and practice using them to process, analyse, and visualize real-world data.
 
-#### 18:30-18:50 Tea break
+### Tea break
 
-#### 19:00-19:50 The Impact of Lane Reductions: A Data-Driven Look at Oakland Streets
-Speaker: Heather
+#### 19:00-19:50 Brain Data in Clojure
+Speaker: Lorelai
 
-The City of Oakland has done work to implement traffic calming measures on many of their streets. Do these reduce crashes and injuries? This talk with analyze the impact of lane reductions and addition of bike lanes and bus loading islands by examining crash data before and after the redesign in of Telegraph Ave in 2021. Then, I’ll look at Grand Avenue, which has not received any traffic calming measures, to explore who is currently most affect by traffic violence and who could benefit from similar interventions.
+This is an introductory talk to the field of Brain-Computer Interfacing, and how Clojure can power intuitive, composable data workflows for real-world brain data. Drawing from my journey through BCI research, I’ll demonstrate how Clojure's unique strengths simplify signal processing, data visualization, and working with APIs such as the OpenBCI 'BrainFlow' API.
+
+The session also invites a broader conversation about the ethical implications of brain-computer interfaces, and how developers can meaningfully contribute to this rapidly evolving field. This talk is for anyone curious about brain data, functional programming, or building new tools at the edge of human-computer interaction.
+
+### 20:00-20:50 Tea break
 
 ### Sat May 17th
 
@@ -170,11 +170,10 @@ Speakers: Ram, Naimish
 
 Tropical Cyclone's happen every year and claim hundreds of lives and billions in damages. Accurate cyclone track forecasting is crucial for disaster preparedness and mitigation. Timely predictions help authorities issue early warnings, evacuate affected areas, and minimize economic and human losses. This project focuses on forecasting cyclone tracks using historical data from the India Meteorological Department (IMD) and Wind Velocity Vectors calculated using EUMETSAT's METEOSAT-7 data.
 
-#### 12:00-12:50 FlowStorm: understanding code by visualizations of execution recordings
-Speaker: Alejandro
-Joins the Q&A: Juan
+#### 12:00-12:50 Studying planning with a novel video game
+Speaker: Cvetomir
 
-TBA
+Tik Tik is a novel video game that we developed to study individual and collaborative planning. Here we use this video game to study individual planning. We developed multiple levels for this task and tested these levels in a series of studies. These studies allowed us to identify a set of levels that lie within the capabilities of the general population. Moreover, they allowed us to determine level parameters that determine level difficulty. 
 
 #### 13:00-13:20 Tea break
 
@@ -185,24 +184,29 @@ The Tidyverse transformed data science in R — not just by providing better too
 
 This talk is about how we get there, together. We’ll explore the principles that have guided the evolution of Scicloj, the challenges we’ve encountered, and the opportunities ahead. From our grassroots beginnings to a future of powerful, unified tools, this is a call to help shape the next chapter, and to imagine what data science and data engineering can become when they're built the Clojure way.
 
-#### 15:00-16:20 macroexpand-1
+#### 15:00-16:50 macroexpand-1
 This will be the first meeting in the new series of [macroexpand gatherings](https://scicloj.github.io/docs/community/groups/macroexpand/). 
 
 It will focus on initiating new projects of research/teaching/implementation/documentation/study group, that we will be running towards the next SciNoj conference later this year.
 
 The session will begin by a few brief experience reports and proposals by participants. Then we will expand the discussion till we converge to actionable steps we will follow up on.
 
-#### 16:30-17:50 RAGgedy Ann's Big Adventure
-Speaker: Paula
+#### 17:00-17:50 FlowStorm: understanding code by visualizations of execution recordings
+Speaker: Alejandro
+Joins the Q&A: Juan
 
-An introductory session for LLMs, Embeddings, and RAG systems
+TBA
 
-#### 18:00-18:50 Parliamentary Questions and Answers: Using noj to explore basic RAG techniques
-Speaker: Eoin
+#### 18:00-18:50 Analyzing Nairobi Bus Routes with Graph Algorithms and Agent-based Simulation
+Speaker: Julius
 
-As part of the Irish democratic process, members of parliament can submit questions to government departments and the answers are routinely published online. For this session, I will look at how this data could potentially be used to build a RAG model that can compile answers to typical questions asked of the government. I will also look at some basic ways we can try to test these approaches. 
+An exploration of Nairobi's new and existing bus routes  to compare differences in traffic congestion, transit time and ease of travel between points. We build a graph representation of the routes on which we compute metrics and assess the behavior of agents in a simulation.
 
-#### 18:50-19:20 RAGs discussion
-Speakers: Paula, Eoin
+#### 19:00-19:50 The Impact of Lane Reductions: A Data-Driven Look at Oakland Streets
+Speaker: Heather
 
-#### 19:30-20:00 Conclusion
+The City of Oakland has done work to implement traffic calming measures on many of their streets. Do these reduce crashes and injuries? This talk with analyze the impact of lane reductions and addition of bike lanes and bus loading islands by examining crash data before and after the redesign in of Telegraph Ave in 2021. Then, I’ll look at Grand Avenue, which has not received any traffic calming measures, to explore who is currently most affect by traffic violence and who could benefit from similar interventions.
+
+#### 20:00-20:20 Conclusion
+
+#### 20:30-21:00 Tea break
