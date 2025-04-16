@@ -1,15 +1,13 @@
 ;; # Speakers
 
-;; Here are the conference speakers:
-
 ^{:clay {:hide-code true}}
 (ns speakers
-  (:require [scicloj.kindly.v4.kind :as kind]
-            [utils]))
+  (:require [utils]
+            [scicloj.kindly.v4.kind :as kind]))
 
-(let [{:keys [speakers people]} utils/info]
-  (->> speakers
-       sort
-       (map (comp utils/person-md people))
-       kind/fragment))
+(-> (utils/info)
+    :speakers
+    utils/people-md
+    kind/md)
+
 

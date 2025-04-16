@@ -8,6 +8,8 @@
            :images ["Aditya.jpg"]
            :bio
            "Hi! Computationally, I identify as a Clojure-brained, mostly-functional, org-mode enjoying, grug-brained, generalist programmer. These days, I blog + think + work at evalapply.org. I've been Clojing since 2013, at work and/or as a hobbyist, and have lurked in the public Clojureverse for about the same time. I love teaching the language and ideas therein, and have had the chance to do so at various conferences (IN/Clojure, FunctionalConf, LambdaWorld), local meetups, and in-house for staff training. And I try to share / give back in the spirit of a self-directive called \"Learn Generously\". So, I am happy to make myself useful, here at SciCloj Light! May The Source be with us.\n "},
+          :alejandro
+          {:name "Alejandro"}
           :cvetomir-m-dimov
           {:name "Cvetomir M Dimov",
            :images ["Cvetomir.jpeg"]
@@ -82,7 +84,8 @@
            :images ["Siyoung.jpg"]
            :bio
            "Siyoung Byun is currently a freelance fullstack Clojure developer living in Seoul, South Korea. She studied Astrophysics for her undergrad in Canada,  where she first got into programming and data analysis while running simulations of dying stars crashing into each other. Ever since she was introduced to Clojure at a previous employer in 2018, it quickly became her favorite programming language and her passion. \n Beyond software development and data analysis, she likes to hike, bike, knit, sew and snuggle with her cat in her free time.\n "}}
- :speakers #{:cvetomir-m-dimov
+ :speakers #{:alejandro
+             :cvetomir-m-dimov
              :eoin-carney
              :daniel-slutsky
              :harold
@@ -193,5 +196,6 @@
              :abstract "The City of Oakland has done work to implement traffic calming measures on many of their streets. Do these reduce crashes and injuries? This talk with analyze the impact of lane reductions and addition of bike lanes and bus loading islands by examining crash data before and after the redesign in of Telegraph Ave in 2021. Then, I’ll look at Grand Avenue, which has not received any traffic calming measures, to explore who is currently most affect by traffic violence and who could benefit from similar interventions."}
 
             "Tropical cyclone trajectory modelling"
-            {:speakers #{:k-ram-narayan :naimish-mani-b}
+            {:type :data-analysis
+             :speakers #{:k-ram-narayan :naimish-mani-b}
              :abstract "Tropical Cyclone's happen every year and claim hundreds of lives and billions in damages. Accurate cyclone track forecasting is crucial for disaster preparedness and mitigation. Timely predictions help authorities issue early warnings, evacuate affected areas, and minimize economic and human losses. This project focuses on forecasting cyclone tracks using historical data from the India Meteorological Department (IMD) and Wind Velocity Vectors calculated using EUMETSAT's METEOSAT-7 data."}}}

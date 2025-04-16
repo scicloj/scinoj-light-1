@@ -1,17 +1,12 @@
 ;; # Hosts
 
-;; Here are the conference hosts/emcees:
-
 ^{:clay {:hide-code true}}
 (ns hosts
-  (:require [scicloj.kindly.v4.kind :as kind]
-            [utils]))
+  (:require [utils]
+            [scicloj.kindly.v4.kind :as kind]))
 
-(let [{:keys [hosts people]} utils/info]
-  (->> hosts
-       sort
-       (map (comp utils/person-md people))
-       kind/fragment))
-
-
+(-> (utils/info)
+    :hosts
+    utils/people-md
+    kind/md)
 
