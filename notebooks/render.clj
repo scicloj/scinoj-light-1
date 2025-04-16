@@ -2,23 +2,13 @@
   (:require [scicloj.clay.v2.api :as clay]
             [clj-yaml.core :as yaml]))
 
-#_(clay/make! {:format [:quarto :html]
-               :base-source-path "notebooks"
-               :source-path ["index.clj"
-                             "speakers.clj"]
-               :base-target-path "docs"
-               :book {:title "SciNoj Light 1"}
-               :clean-up-target-dir true})
-
 (clay/make! {:format [:quarto :html]
              :base-source-path "notebooks"
              :source-path ["index.clj"
                            "speakers.clj"
                            "hosts.clj"]
              :run-quarto false
-             :base-target-path "docs"
-             ;; :clean-up-target-dir true
-             })
+             :base-target-path "docs"})
 
 (->> {:project {:type :website}
       :website {:title "SciNoj Light #1"
