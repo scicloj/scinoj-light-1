@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.42">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>schedule – SciNoj Light #1</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-ed11f7f2216a1db633ab2a725a9ddd2e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<meta property="og:image" content="notebooks/images/Noj.png">
+<meta property="og:title" content="SciNoj Light #1">
+<meta property="og:description" content="">
+
+
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">SciNoj Light #1</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./speakers.html"> 
+<span class="menu-text">Speakers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./hosts.html"> 
+<span class="menu-text">Hosts</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./sessions.html"> 
+<span class="menu-text">Sessions</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./schedule.html" aria-current="page"> 
+<span class="menu-text">Schedule Drafts</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#schedule-drafts" id="toc-schedule-drafts" class="nav-link active" data-scroll-target="#schedule-drafts">Schedule Drafts</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+
+
+
+
+<style></style>
+<style>.printedClojure .sourceCode {
+  background-color: transparent;
+  border-style: none;
+}
+</style>
+<style>.clay-limit-image-width .clay-image {max-width: 100%}
+.clay-side-by-side .sourceCode {margin: 0}
+.clay-side-by-side {margin: 1em 0}
+</style>
+<script src="schedule_files/md-default0.js" type="text/javascript"></script>
+<script src="schedule_files/md-default1.js" type="text/javascript"></script>
+<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js" type="text/javascript"></script>
+<p><link href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" rel="stylesheet" type="text/css"></p>
+<section id="schedule-drafts" class="level1">
+<h1>Schedule Drafts</h1>
+<p>The content of this page is temporary and is used in the planning stage.</p>
+<ul>
+<li>All times are in <a href="https://time.is/UTC">UTC</a> time zone.</li>
+<li>All talk durations include the discussion/Q&amp;A part.</li>
+<li>Data analysis talks are all 30 minute talk (some pre-recorded) + 20 minute discussion.</li>
+<li>Background talks and special sessions are often longer.</li>
+<li>A few of the background talks (intro to Noj, intro to probability) will be similar to the content of <a href="https://scicloj.github.io/blog/data-analyis-with-clojure-free-workshop-may-10th-initial-survey/">the prep workshop</a>, so people who miss the first part of the day will not miss too much.</li>
+<li>The first day’s full recording will be published almost immediately, so people can review the parts they’ve missed before the second day.</li>
+</ul>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-3-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-1" role="tab" aria-controls="tabset-3-1" aria-selected="true">Draft #1</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-2" role="tab" aria-controls="tabset-3-2" aria-selected="false">Draft #2</a></li></ul>
+<div class="tab-content">
+<div id="tabset-3-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-3-1-tab">
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Fri May 16th</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Sat May 17th</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<div class="clay-table">
+<div class="clay-table">
+<table class="table table-hover table-responsive clay-table"><thead><tr><th>time</th><th>title</th></tr></thead><tbody><tr><td>9:00-9:25</td><td><div background-color="#550055"><div><div class="callout callout-style-default callout-caution"><div class="callout-header" data-bs-target=".id-1-contents" data-bs-toggle="collapse"><div class="callout-title-container"><p class="big">Hello &gt;</p></div></div><div class="callout-collapse collapse id-1-contents" id="id-1"><div class="callout-body-container callout-body"><div><i></i><div></div><div></div></div></div></div></div></div></div></td></tr><tr><td>9:30-10:20</td><td><div background-color="#550055"><div><div class="callout callout-style-default callout-tip"><div class="callout-header" data-bs-target=".id-2-contents" data-bs-toggle="collapse"><div class="callout-title-container"><p class="big">An intro to the Noj toolkit &gt;</p></div></div><div class="callout-collapse collapse id-2-contents" id="id-2"><div class="callout-body-container callout-body"><div><i>(background session)</i><div><div><a href="./speakers.html#daniel-slutsky">Daniel Slutsky</a><div><img height="100" src="notebooks/images/Daniel.jpeg"></div></div></div><div><p>This session will offer a brief overview of the <a href="https://scicloj.github.io/noj/">Noj</a> toolkit. It will repeat some content from our <a href="https://scicloj.github.io/blog/data-analyis-with-clojure-free-workshop-may-10th-initial-survey/">May 10th workshop</a> and mostly offer an opportunity to ask questions.</p></div></div></div></div></div></div></div></td></tr><tr><td>10:30-11:50</td><td><div background-color="#550055"><div><div class="callout callout-style-default callout-tip"><div class="callout-header" data-bs-target=".id-3-contents" data-bs-toggle="collapse"><div class="callout-title-container"><p class="big">An intro to probability and statistics &gt;</p></div></div><div class="callout-collapse collapse id-3-contents" id="id-3"><div class="callout-body-container callout-body"><div><i>(background session)</i><div><div><a href="./speakers.html#daniel-slutsky">Daniel Slutsky</a><div><img height="100" src="notebooks/images/Daniel.jpeg"></div></div></div><div><p>This session will offer a brief intro to probability theory concepts and then use them to explain common statistical methods. It will repeat some content from our <a href="https://scicloj.github.io/blog/data-analyis-with-clojure-free-workshop-may-10th-initial-survey/">May 10th workshop</a> so we can discuss it further at the conference.</p><p>The session also invites a broader conversation about the ethical implications of brain-computer interfaces, and how developers can meaningfully contribute to this rapidly evolving field. This talk is for anyone curious about brain data, functional programming, or building new tools at the edge of human-computer interaction.</p></div></div></div></div></div></div></div></td></tr><tr><td>12:00-12:50</td><td><div background-color="#550055"><div><div class="callout callout-style-default callout-note"><div class="callout-header" data-bs-target=".id-4-contents" data-bs-toggle="collapse"><div class="callout-title-container"><p class="big">Studying planning with a novel video game &gt;</p></div></div><div class="callout-collapse collapse id-4-contents" id="id-4"><div class="callout-body-container callout-body"><div><i>(data-analysis session)</i><div><div><a href="./speakers.html#cvetomir-m-dimov">Cvetomir M Dimov</a><div><img height="100" src="notebooks/images/Cvetomir.jpeg"></div></div></div><div><p>Tik Tik is a novel video game that we developed to study individual and collaborative planning. Here we use this video game to study individual planning. We developed multiple levels for this task and tested these levels in a series of studies. These studies allowed us to identify a set of levels that lie within the capabilities of the general population. Moreover, they allowed us to determine level parameters that determine level difficulty.</p></div></div></div></div></div></div></div></td></tr><tr><td>13:00-13:50</td><td><div background-color="#550055"><div><div class="callout callout-style-default callout-note"><div class="callout-header" data-bs-target=".id-5-contents" data-bs-toggle="collapse"><div class="callout-title-container"><p class="big">Brain Data in Clojure &gt;</p></div></div><div class="callout-collapse collapse id-5-contents" id="id-5"><div class="callout-body-container callout-body"><div><i>(data-analysis session)</i><div><div><a href="./speakers.html#lorelai-lyons">Lorelai Lyons</a><div><img height="100" src="notebooks/images/Lor.jpg"></div></div></div><div><p>This is an introductory talk to the field of Brain-Computer Interfacing, and how Clojure can power intuitive, composable data workflows for real-world brain data. Drawing from my journey through BCI research, I’ll demonstrate how Clojure's unique strengths simplify signal processing, data visualization, and working with APIs such as the OpenBCI 'BrainFlow' API.</p></div></div></div></div></div></div></div></td></tr><tr><td>14:00-14:20</td><td><div background-color="#550055"><div><div class="callout callout-style-default callout-caution"><div class="callout-header" data-bs-target=".id-6-contents" data-bs-toggle="collapse"><div class="callout-title-container"><p class="big">General chat (moderated) &gt;</p></div></div><div class="callout-collapse collapse id-6-contents" id="id-6"><div class="callout-body-container callout-body"><div><i></i><div></div><div></div></div></div></div></div></div></div></td></tr><tr><td>14:30-15:50</td><td><div background-color="#550055"><div><div class="callout callout-style-default callout-tip"><div class="callout-header" data-bs-target=".id-7-contents" data-bs-toggle="collapse"><div class="callout-title-container"><p class="big">Linear Foundations and Nonlinear Frontiers: A Journey Through Mathematical Methods &gt;</p></div></div><div class="callout-collapse collapse id-7-contents" id="id-7"><div class="callout-body-container callout-body"><div><i>(background session)</i><div><div><a href="./speakers.html#jelena-losic">Jelena Losic</a><div></div></div></div><div><p>Our session isn’t just about listing techniques, it’s about the journey. We’ll explore how we move from the simplicity of linear models towards tackling the complex challenges real-world data throws at us. It’s about understanding our starting point and then, step by step, embracing the evolution that leads to breakthrough solutions.</p></div></div></div></div></div></div></div></td></tr><tr><td>16:00-16:50</td><td><div background-color="#550055"><div><div class="callout callout-style-default callout-note"><div class="callout-header" data-bs-target=".id-8-contents" data-bs-toggle="collapse"><div class="callout-title-container"><p class="big">Analyzing Nairobi Bus Routes with Graph Algorithms and Agent-based Simulation &gt;</p></div></div><div class="callout-collapse collapse id-8-contents" id="id-8"><div class="callout-body-container callout-body"><div><i>(data-analysis session)</i><div><div><a href="./speakers.html#julius-kibunjia">Julius Kibunjia</a><div></div></div></div><div><p>An exploration of Nairobi's new and existing bus routes  to compare differences in traffic congestion, transit time and ease of travel between points. We build a graph representation of the routes on which we compute metrics and assess the behavior of agents in a simulation.</p></div></div></div></div></div></div></div></td></tr><tr><td>17:00-18:20</td><td><div background-color="#550055"><div><div class="callout callout-style-default callout-tip"><div class="callout-header" data-bs-target=".id-9-contents" data-bs-toggle="collapse"><div class="callout-title-container"><p class="big">Noj deep dive &gt;</p></div></div><div class="callout-collapse collapse id-9-contents" id="id-9"><div class="callout-body-container callout-body"><div><i>(background session)</i><div><div><a href="./speakers.html#daniel-slutsky">Daniel Slutsky</a><div><img height="100" src="notebooks/images/Daniel.jpeg"></div></div><div><a href="./speakers.html#harold">Harold</a><div><img height="100" src="notebooks/images/Harold.jpeg"></div></div></div><div><p>This session is intended to provide the audience with a technical background for the more concrete data analysis sessions in the conference. We will introduce a few of the <a href="https://scicloj.github.io/noj/noj_book.underlying_libraries.html">libraries</a> behind the <a href="https://scicloj.github.io/noj/">Noj</a> toolkit and practice using them to process, analyse, and visualize real-world data.</p></div></div></div></div></div></div></div></td></tr><tr><td>18:30-18:50</td><td><div background-color="#550055"><div><div class="callout callout-style-default callout-caution"><div class="callout-header" data-bs-target=".id-10-contents" data-bs-toggle="collapse"><div class="callout-title-container"><p class="big">General chat (moderated) &gt;</p></div></div><div class="callout-collapse collapse id-10-contents" id="id-10"><div class="callout-body-container callout-body"><div><i></i><div></div><div></div></div></div></div></div></div></div></td></tr><tr><td>19:00-19:50</td><td><div background-color="#550055"><div><div class="callout callout-style-default callout-note"><div class="callout-header" data-bs-target=".id-11-contents" data-bs-toggle="collapse"><div class="callout-title-container"><p class="big">The Impact of Lane Reductions: A Data-Driven Look at Oakland Streets &gt;</p></div></div><div class="callout-collapse collapse id-11-contents" id="id-11"><div class="callout-body-container callout-body"><div><i>(data-analysis session)</i><div><div><a href="./speakers.html#heather-moore-farley">Heather Moore-Farley</a><div><img height="100" src="notebooks/images/Heather_1.jpg"><img height="100" src="notebooks/images/Heather_2.jpg"></div></div></div><div><p>The City of Oakland has done work to implement traffic calming measures on many of their streets. Do these reduce crashes and injuries? This talk with analyze the impact of lane reductions and addition of bike lanes and bus loading islands by examining crash data before and after the redesign in of Telegraph Ave in 2021. Then, I’ll look at Grand Avenue, which has not received any traffic calming measures, to explore who is currently most affect by traffic violence and who could benefit from similar interventions.</p></div></div></div></div></div></div></div></td></tr></tbody><script>new DataTable(document.currentScript.parentElement, {"paging":false,"scrollY":false,"sPaginationType":"full_numbers","order":[],"info":false,"columns":[{"width":"15%"},{"width":"85%"}]});</script></table>
+</div>
+</div>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<div class="clay-table">
+<div class="clay-table">
+<table class="table table-hover table-responsive clay-table"><thead><tr><th>time</th><th>title</th></tr></thead><tbody><tr><td>9:00-9:25</td><td><div background-color="#550055"><div><div class="callout callout-style-default callout-caution"><div class="callout-header" data-bs-target=".id-12-contents" data-bs-toggle="collapse"><div class="callout-title-container"><p class="big">Hello &gt;</p></div></div><div class="callout-collapse collapse id-12-contents" id="id-12"><div class="callout-body-container callout-body"><div><i></i><div></div><div></div></div></div></div></div></div></div></td></tr><tr><td>9:30-9:50</td><td><div background-color="#550055"><div><div class="callout callout-style-default callout-caution"><div class="callout-header" data-bs-target=".id-13-contents" data-bs-toggle="collapse"><div class="callout-title-container"><p class="big">General chat (moderated) &gt;</p></div></div><div class="callout-collapse collapse id-13-contents" id="id-13"><div class="callout-body-container callout-body"><div><i></i><div></div><div></div></div></div></div></div></div></div></td></tr><tr><td>10:00-10:50</td><td><div background-color="#550055"><div><div class="callout callout-style-default callout-note"><div class="callout-header" data-bs-target=".id-14-contents" data-bs-toggle="collapse"><div class="callout-title-container"><p class="big">1D Viscous Fluid Flow Data Analysis Using Burgers’ Equation &gt;</p></div></div><div class="callout-collapse collapse id-14-contents" id="id-14"><div class="callout-body-container callout-body"><div><i>(data-analysis session)</i><div><div><a href="./speakers.html#siyoung-byun">Siyoung Byun</a><div><img height="100" src="notebooks/images/Siyoung.jpg"></div></div></div><div><p>In this talk, I will share my early exploration into simulating and analyzing viscous fluid flow using the 1D Burgers’ equation as the beginning of my journey in computational fluid dynamics (CFD). I will walk through how I implemented the Burgers’ equation solver in 1-D in Clojure, referenced from the 12-step CFDPython series (<a href="https://github.com/barbagroup/CFDPython">https://github.com/barbagroup/CFDPython</a>). Using data generated from my simulation, I will demonstrate how shock structures are smoothed by viscosity and how nonlinear interactions evolve over time. Along the way, I will reflect on the process of learning the essence of the Burgers’ equation, then implementing it in a functional programming paradigm, and close with a glimpse of future directions, including extending these ideas toward multidimensional simulations and more complex flow behavior.</p></div></div></div></div></div></div></div></td></tr><tr><td>11:00-11:50</td><td><div background-color="#550055"><div><div class="callout callout-style-default callout-note"><div class="callout-header" data-bs-target=".id-15-contents" data-bs-toggle="collapse"><div class="callout-title-container"><p class="big">Tropical cyclone trajectory modelling &gt;</p></div></div><div class="callout-collapse collapse id-15-contents" id="id-15"><div class="callout-body-container callout-body"><div><i>(data-analysis session)</i><div><div><a href="./speakers.html#k-ram-narayan">K Ram Narayan</a><div><img height="100" src="notebooks/images/Ram.jpg"></div></div><div><a href="./speakers.html#naimish-mani-b">Naimish Mani B</a><div><img height="100" src="notebooks/images/Naimish.jpeg"></div></div></div><div><p>Tropical Cyclone's happen every year and claim hundreds of lives and billions in damages. Accurate cyclone track forecasting is crucial for disaster preparedness and mitigation. Timely predictions help authorities issue early warnings, evacuate affected areas, and minimize economic and human losses. This project focuses on forecasting cyclone tracks using historical data from the India Meteorological Department (IMD) and Wind Velocity Vectors calculated using EUMETSAT's METEOSAT-7 data.</p></div></div></div></div></div></div></div></td></tr><tr><td>12:00-12:50</td><td><div background-color="#550055"><div><div class="callout callout-style-default callout-note"><div class="callout-header" data-bs-target=".id-16-contents" data-bs-toggle="collapse"><div class="callout-title-container"><p class="big">FlowStorm: understanding code by visualizations of execution recordings &gt;</p></div></div><div class="callout-collapse collapse id-16-contents" id="id-16"><div class="callout-body-container callout-body"><div><i>(data-analysis session)</i><div><div><a href="./speakers.html#alejandro">Alejandro</a><div></div></div><div><a href="./speakers.html#juan-monetta">Juan Monetta</a><div><img height="100" src="notebooks/images/Juan.png"></div></div></div><div><p>TBA</p><p>Note: Juan will join at the Q&amp;A part.</p></div></div></div></div></div></div></div></td></tr><tr><td>13:00-13:20</td><td><div background-color="#550055"><div><div class="callout callout-style-default callout-caution"><div class="callout-header" data-bs-target=".id-17-contents" data-bs-toggle="collapse"><div class="callout-title-container"><p class="big">General chat (moderated) &gt;</p></div></div><div class="callout-collapse collapse id-17-contents" id="id-17"><div class="callout-body-container callout-body"><div><i></i><div></div><div></div></div></div></div></div></div></div></td></tr><tr><td>13:30-14:50</td><td><div background-color="#550055"><div><div class="callout callout-style-default callout-important"><div class="callout-header" data-bs-target=".id-18-contents" data-bs-toggle="collapse"><div class="callout-title-container"><p class="big">Building a Data Science Ecosystem in Clojure: Lessons from the Tidyverse &gt;</p></div></div><div class="callout-collapse collapse id-18-contents" id="id-18"><div class="callout-body-container callout-body"><div><i>(special session)</i><div><div><a href="./speakers.html#kira-howe">Kira Howe</a><div><img height="100" src="notebooks/images/Kira.png"></div></div></div><div><p>The Tidyverse transformed data science in R — not just by providing better tools, but by uniting them under a shared philosophy. Clojure, with its immutable data structures, functional paradigm, REPL-driven development, and a community that values simplicity and composability, is uniquely positioned to take these ideas even further. What we’re building isn’t just a set of libraries, it’s a new way of thinking about data.</p><p>This talk is about how we get there, together. We’ll explore the principles that have guided the evolution of Scicloj, the challenges we’ve encountered, and the opportunities ahead. From our grassroots beginnings to a future of powerful, unified tools, this is a call to help shape the next chapter, and to imagine what data science and data engineering can become when they're built the Clojure way.</p></div></div></div></div></div></div></div></td></tr><tr><td>15:00-16:20</td><td><div background-color="#550055"><div><div class="callout callout-style-default callout-important"><div class="callout-header" data-bs-target=".id-19-contents" data-bs-toggle="collapse"><div class="callout-title-container"><p class="big">macroexpand-1 &gt;</p></div></div><div class="callout-collapse collapse id-19-contents" id="id-19"><div class="callout-body-container callout-body"><div><i>(special session)</i><div></div><div><p>This will be the first meeting in the new series of <a href="https://scicloj.github.io/docs/community/groups/macroexpand/">macroexpand gatherings</a>. It will focus on initiating new projects of research/teaching/implementation/documentation/study group, that we will be running towards the next SciNoj conference later this year.</p><p>The session will begin by a few brief experience reports and proposals by participants. Then we will expand the discussion till we converge to actionable steps we will follow up on.</p></div></div></div></div></div></div></div></td></tr><tr><td>16:30-17:50</td><td><div background-color="#550055"><div><div class="callout callout-style-default callout-tip"><div class="callout-header" data-bs-target=".id-20-contents" data-bs-toggle="collapse"><div class="callout-title-container"><p class="big">RAGgedy Ann's Big Adventure &gt;</p></div></div><div class="callout-collapse collapse id-20-contents" id="id-20"><div class="callout-body-container callout-body"><div><i>(background session)</i><div><div><a href="./speakers.html#paula-gearon">Paula Gearon</a><div><img height="100" src="notebooks/images/Paula.jpeg"></div></div></div><div><p>An introductory session for LLMs, Embeddings, and RAG systems.</p></div></div></div></div></div></div></div></td></tr><tr><td>18:00-18:50</td><td><div background-color="#550055"><div><div class="callout callout-style-default callout-note"><div class="callout-header" data-bs-target=".id-21-contents" data-bs-toggle="collapse"><div class="callout-title-container"><p class="big">Parliamentary Questions and Answers: Using noj to explore basic RAG techniques &gt;</p></div></div><div class="callout-collapse collapse id-21-contents" id="id-21"><div class="callout-body-container callout-body"><div><i>(data-analysis session)</i><div><div><a href="./speakers.html#eoin-carney">Eoin Carney</a><div><img height="100" src="notebooks/images/Eoin.jpg"></div></div></div><div><p>As part of the Irish democratic process, members of parliament can submit questions to government departments and the answers are routinely published online. For this session, I will look at how this data could potentially be used to build a RAG model that can compile answers to typical questions asked of the government. I will also look at some basic ways we can try to test these approaches.</p></div></div></div></div></div></div></div></td></tr><tr><td>18:50-19:20</td><td><div background-color="#550055"><div><div class="callout callout-style-default callout-caution"><div class="callout-header" data-bs-target=".id-22-contents" data-bs-toggle="collapse"><div class="callout-title-container"><p class="big">RAGs discussion &gt;</p></div></div><div class="callout-collapse collapse id-22-contents" id="id-22"><div class="callout-body-container callout-body"><div><i></i><div></div><div></div></div></div></div></div></div></div></td></tr><tr><td>19:30-20:00</td><td><div background-color="#550055"><div><div class="callout callout-style-default callout-caution"><div class="callout-header" data-bs-target=".id-23-contents" data-bs-toggle="collapse"><div class="callout-title-container"><p class="big">Conclusion &gt;</p></div></div><div class="callout-collapse collapse id-23-contents" id="id-23"><div class="callout-body-container callout-body"><div><i></i><div></div><div></div></div></div></div></div></div></div></td></tr></tbody><script>new DataTable(document.currentScript.parentElement, {"paging":false,"scrollY":false,"sPaginationType":"full_numbers","order":[],"info":false,"columns":[{"width":"15%"},{"width":"85%"}]});</script></table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-3-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-2-tab">
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true">Fri May 16th</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false">Sat May 17th</a></li></ul>
+<div class="tab-content">
+<div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
+<div class="clay-table">
+<div class="clay-table">
+<table class="table table-hover table-responsive clay-table"><thead><tr><th>time</th><th>title</th></tr></thead><tbody><tr><td>9:00-9:25</td><td><div background-color="#550055"><div><div class="callout callout-style-default callout-caution"><div class="callout-header" data-bs-target=".id-24-contents" data-bs-toggle="collapse"><div class="callout-title-container"><p class="big">Hello &gt;</p></div></div><div class="callout-collapse collapse id-24-contents" id="id-24"><div class="callout-body-container callout-body"><div><i></i><div></div><div></div></div></div></div></div></div></div></td></tr><tr><td>9:30-10:20</td><td><div background-color="#550055"><div><div class="callout callout-style-default callout-tip"><div class="callout-header" data-bs-target=".id-25-contents" data-bs-toggle="collapse"><div class="callout-title-container"><p class="big">An intro to the Noj toolkit &gt;</p></div></div><div class="callout-collapse collapse id-25-contents" id="id-25"><div class="callout-body-container callout-body"><div><i>(background session)</i><div><div><a href="./speakers.html#daniel-slutsky">Daniel Slutsky</a><div><img height="100" src="notebooks/images/Daniel.jpeg"></div></div></div><div><p>This session will offer a brief overview of the <a href="https://scicloj.github.io/noj/">Noj</a> toolkit. It will repeat some content from our <a href="https://scicloj.github.io/blog/data-analyis-with-clojure-free-workshop-may-10th-initial-survey/">May 10th workshop</a> and mostly offer an opportunity to ask questions.</p></div></div></div></div></div></div></div></td></tr><tr><td>10:30-11:50</td><td><div background-color="#550055"><div><div class="callout callout-style-default callout-tip"><div class="callout-header" data-bs-target=".id-26-contents" data-bs-toggle="collapse"><div class="callout-title-container"><p class="big">An intro to probability and statistics &gt;</p></div></div><div class="callout-collapse collapse id-26-contents" id="id-26"><div class="callout-body-container callout-body"><div><i>(background session)</i><div><div><a href="./speakers.html#daniel-slutsky">Daniel Slutsky</a><div><img height="100" src="notebooks/images/Daniel.jpeg"></div></div></div><div><p>This session will offer a brief intro to probability theory concepts and then use them to explain common statistical methods. It will repeat some content from our <a href="https://scicloj.github.io/blog/data-analyis-with-clojure-free-workshop-may-10th-initial-survey/">May 10th workshop</a> so we can discuss it further at the conference.</p><p>The session also invites a broader conversation about the ethical implications of brain-computer interfaces, and how developers can meaningfully contribute to this rapidly evolving field. This talk is for anyone curious about brain data, functional programming, or building new tools at the edge of human-computer interaction.</p></div></div></div></div></div></div></div></td></tr><tr><td>12:00-13:20</td><td><div background-color="#550055"><div><div class="callout callout-style-default callout-tip"><div class="callout-header" data-bs-target=".id-27-contents" data-bs-toggle="collapse"><div class="callout-title-container"><p class="big">Linear Foundations and Nonlinear Frontiers: A Journey Through Mathematical Methods &gt;</p></div></div><div class="callout-collapse collapse id-27-contents" id="id-27"><div class="callout-body-container callout-body"><div><i>(background session)</i><div><div><a href="./speakers.html#jelena-losic">Jelena Losic</a><div></div></div></div><div><p>Our session isn’t just about listing techniques, it’s about the journey. We’ll explore how we move from the simplicity of linear models towards tackling the complex challenges real-world data throws at us. It’s about understanding our starting point and then, step by step, embracing the evolution that leads to breakthrough solutions.</p></div></div></div></div></div></div></div></td></tr><tr><td>13:30-14:50</td><td><div background-color="#550055"><div><div class="callout callout-style-default callout-tip"><div class="callout-header" data-bs-target=".id-28-contents" data-bs-toggle="collapse"><div class="callout-title-container"><p class="big">RAGgedy Ann's Big Adventure &gt;</p></div></div><div class="callout-collapse collapse id-28-contents" id="id-28"><div class="callout-body-container callout-body"><div><i>(background session)</i><div><div><a href="./speakers.html#paula-gearon">Paula Gearon</a><div><img height="100" src="notebooks/images/Paula.jpeg"></div></div></div><div><p>An introductory session for LLMs, Embeddings, and RAG systems.</p></div></div></div></div></div></div></div></td></tr><tr><td>15:00-15:50</td><td><div background-color="#550055"><div><div class="callout callout-style-default callout-note"><div class="callout-header" data-bs-target=".id-29-contents" data-bs-toggle="collapse"><div class="callout-title-container"><p class="big">Parliamentary Questions and Answers: Using noj to explore basic RAG techniques &gt;</p></div></div><div class="callout-collapse collapse id-29-contents" id="id-29"><div class="callout-body-container callout-body"><div><i>(data-analysis session)</i><div><div><a href="./speakers.html#eoin-carney">Eoin Carney</a><div><img height="100" src="notebooks/images/Eoin.jpg"></div></div></div><div><p>As part of the Irish democratic process, members of parliament can submit questions to government departments and the answers are routinely published online. For this session, I will look at how this data could potentially be used to build a RAG model that can compile answers to typical questions asked of the government. I will also look at some basic ways we can try to test these approaches.</p></div></div></div></div></div></div></div></td></tr><tr><td>15:50-16:20</td><td><div background-color="#550055"><div><div class="callout callout-style-default callout-caution"><div class="callout-header" data-bs-target=".id-30-contents" data-bs-toggle="collapse"><div class="callout-title-container"><p class="big">RAGs discussion &gt;</p></div></div><div class="callout-collapse collapse id-30-contents" id="id-30"><div class="callout-body-container callout-body"><div><i></i><div></div><div></div></div></div></div></div></div></div></td></tr><tr><td>16:30-16:50</td><td><div background-color="#550055"><div><div class="callout callout-style-default callout-caution"><div class="callout-header" data-bs-target=".id-31-contents" data-bs-toggle="collapse"><div class="callout-title-container"><p class="big">Open chat (hosted) &gt;</p></div></div><div class="callout-collapse collapse id-31-contents" id="id-31"><div class="callout-body-container callout-body"><div><i></i><div></div><div></div></div></div></div></div></div></div></td></tr><tr><td>17:00-18:20</td><td><div background-color="#550055"><div><div class="callout callout-style-default callout-tip"><div class="callout-header" data-bs-target=".id-32-contents" data-bs-toggle="collapse"><div class="callout-title-container"><p class="big">Noj deep dive &gt;</p></div></div><div class="callout-collapse collapse id-32-contents" id="id-32"><div class="callout-body-container callout-body"><div><i>(background session)</i><div><div><a href="./speakers.html#daniel-slutsky">Daniel Slutsky</a><div><img height="100" src="notebooks/images/Daniel.jpeg"></div></div><div><a href="./speakers.html#harold">Harold</a><div><img height="100" src="notebooks/images/Harold.jpeg"></div></div></div><div><p>This session is intended to provide the audience with a technical background for the more concrete data analysis sessions in the conference. We will introduce a few of the <a href="https://scicloj.github.io/noj/noj_book.underlying_libraries.html">libraries</a> behind the <a href="https://scicloj.github.io/noj/">Noj</a> toolkit and practice using them to process, analyse, and visualize real-world data.</p></div></div></div></div></div></div></div></td></tr><tr><td>19:00-19:50</td><td><div background-color="#550055"><div><div class="callout callout-style-default callout-note"><div class="callout-header" data-bs-target=".id-33-contents" data-bs-toggle="collapse"><div class="callout-title-container"><p class="big">Brain Data in Clojure &gt;</p></div></div><div class="callout-collapse collapse id-33-contents" id="id-33"><div class="callout-body-container callout-body"><div><i>(data-analysis session)</i><div><div><a href="./speakers.html#lorelai-lyons">Lorelai Lyons</a><div><img height="100" src="notebooks/images/Lor.jpg"></div></div></div><div><p>This is an introductory talk to the field of Brain-Computer Interfacing, and how Clojure can power intuitive, composable data workflows for real-world brain data. Drawing from my journey through BCI research, I’ll demonstrate how Clojure's unique strengths simplify signal processing, data visualization, and working with APIs such as the OpenBCI 'BrainFlow' API.</p></div></div></div></div></div></div></div></td></tr><tr><td>20:00-20:50</td><td><div background-color="#550055"><div><div class="callout callout-style-default callout-caution"><div class="callout-header" data-bs-target=".id-34-contents" data-bs-toggle="collapse"><div class="callout-title-container"><p class="big">Open chat (hosted) &gt;</p></div></div><div class="callout-collapse collapse id-34-contents" id="id-34"><div class="callout-body-container callout-body"><div><i></i><div></div><div></div></div></div></div></div></div></div></td></tr></tbody><script>new DataTable(document.currentScript.parentElement, {"paging":false,"scrollY":false,"sPaginationType":"full_numbers","order":[],"info":false,"columns":[{"width":"15%"},{"width":"85%"}]});</script></table>
+</div>
+</div>
+</div>
+<div id="tabset-2-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-2-tab">
+<div class="clay-table">
+<div class="clay-table">
+<table class="table table-hover table-responsive clay-table"><thead><tr><th>time</th><th>title</th></tr></thead><tbody><tr><td>9:00-9:25</td><td><div background-color="#550055"><div><div class="callout callout-style-default callout-caution"><div class="callout-header" data-bs-target=".id-35-contents" data-bs-toggle="collapse"><div class="callout-title-container"><p class="big">Hello &gt;</p></div></div><div class="callout-collapse collapse id-35-contents" id="id-35"><div class="callout-body-container callout-body"><div><i></i><div></div><div></div></div></div></div></div></div></div></td></tr><tr><td>9:30-9:50</td><td><div background-color="#550055"><div><div class="callout callout-style-default callout-caution"><div class="callout-header" data-bs-target=".id-36-contents" data-bs-toggle="collapse"><div class="callout-title-container"><p class="big">Open chat (hosted) &gt;</p></div></div><div class="callout-collapse collapse id-36-contents" id="id-36"><div class="callout-body-container callout-body"><div><i></i><div></div><div></div></div></div></div></div></div></div></td></tr><tr><td>10:00-10:50</td><td><div background-color="#550055"><div><div class="callout callout-style-default callout-note"><div class="callout-header" data-bs-target=".id-37-contents" data-bs-toggle="collapse"><div class="callout-title-container"><p class="big">1D Viscous Fluid Flow Data Analysis Using Burgers’ Equation &gt;</p></div></div><div class="callout-collapse collapse id-37-contents" id="id-37"><div class="callout-body-container callout-body"><div><i>(data-analysis session)</i><div><div><a href="./speakers.html#siyoung-byun">Siyoung Byun</a><div><img height="100" src="notebooks/images/Siyoung.jpg"></div></div></div><div><p>In this talk, I will share my early exploration into simulating and analyzing viscous fluid flow using the 1D Burgers’ equation as the beginning of my journey in computational fluid dynamics (CFD). I will walk through how I implemented the Burgers’ equation solver in 1-D in Clojure, referenced from the 12-step CFDPython series (<a href="https://github.com/barbagroup/CFDPython">https://github.com/barbagroup/CFDPython</a>). Using data generated from my simulation, I will demonstrate how shock structures are smoothed by viscosity and how nonlinear interactions evolve over time. Along the way, I will reflect on the process of learning the essence of the Burgers’ equation, then implementing it in a functional programming paradigm, and close with a glimpse of future directions, including extending these ideas toward multidimensional simulations and more complex flow behavior.</p></div></div></div></div></div></div></div></td></tr><tr><td>11:00-11:50</td><td><div background-color="#550055"><div><div class="callout callout-style-default callout-note"><div class="callout-header" data-bs-target=".id-38-contents" data-bs-toggle="collapse"><div class="callout-title-container"><p class="big">Tropical cyclone trajectory modelling &gt;</p></div></div><div class="callout-collapse collapse id-38-contents" id="id-38"><div class="callout-body-container callout-body"><div><i>(data-analysis session)</i><div><div><a href="./speakers.html#k-ram-narayan">K Ram Narayan</a><div><img height="100" src="notebooks/images/Ram.jpg"></div></div><div><a href="./speakers.html#naimish-mani-b">Naimish Mani B</a><div><img height="100" src="notebooks/images/Naimish.jpeg"></div></div></div><div><p>Tropical Cyclone's happen every year and claim hundreds of lives and billions in damages. Accurate cyclone track forecasting is crucial for disaster preparedness and mitigation. Timely predictions help authorities issue early warnings, evacuate affected areas, and minimize economic and human losses. This project focuses on forecasting cyclone tracks using historical data from the India Meteorological Department (IMD) and Wind Velocity Vectors calculated using EUMETSAT's METEOSAT-7 data.</p></div></div></div></div></div></div></div></td></tr><tr><td>12:00-12:50</td><td><div background-color="#550055"><div><div class="callout callout-style-default callout-note"><div class="callout-header" data-bs-target=".id-39-contents" data-bs-toggle="collapse"><div class="callout-title-container"><p class="big">Studying planning with a novel video game &gt;</p></div></div><div class="callout-collapse collapse id-39-contents" id="id-39"><div class="callout-body-container callout-body"><div><i>(data-analysis session)</i><div><div><a href="./speakers.html#cvetomir-m-dimov">Cvetomir M Dimov</a><div><img height="100" src="notebooks/images/Cvetomir.jpeg"></div></div></div><div><p>Tik Tik is a novel video game that we developed to study individual and collaborative planning. Here we use this video game to study individual planning. We developed multiple levels for this task and tested these levels in a series of studies. These studies allowed us to identify a set of levels that lie within the capabilities of the general population. Moreover, they allowed us to determine level parameters that determine level difficulty.</p></div></div></div></div></div></div></div></td></tr><tr><td>13:00-13:20</td><td><div background-color="#550055"><div><div class="callout callout-style-default callout-caution"><div class="callout-header" data-bs-target=".id-40-contents" data-bs-toggle="collapse"><div class="callout-title-container"><p class="big">Open chat (hosted) &gt;</p></div></div><div class="callout-collapse collapse id-40-contents" id="id-40"><div class="callout-body-container callout-body"><div><i></i><div></div><div></div></div></div></div></div></div></div></td></tr><tr><td>13:30-14:50</td><td><div background-color="#550055"><div><div class="callout callout-style-default callout-important"><div class="callout-header" data-bs-target=".id-41-contents" data-bs-toggle="collapse"><div class="callout-title-container"><p class="big">Building a Data Science Ecosystem in Clojure: Lessons from the Tidyverse &gt;</p></div></div><div class="callout-collapse collapse id-41-contents" id="id-41"><div class="callout-body-container callout-body"><div><i>(special session)</i><div><div><a href="./speakers.html#kira-howe">Kira Howe</a><div><img height="100" src="notebooks/images/Kira.png"></div></div></div><div><p>The Tidyverse transformed data science in R — not just by providing better tools, but by uniting them under a shared philosophy. Clojure, with its immutable data structures, functional paradigm, REPL-driven development, and a community that values simplicity and composability, is uniquely positioned to take these ideas even further. What we’re building isn’t just a set of libraries, it’s a new way of thinking about data.</p><p>This talk is about how we get there, together. We’ll explore the principles that have guided the evolution of Scicloj, the challenges we’ve encountered, and the opportunities ahead. From our grassroots beginnings to a future of powerful, unified tools, this is a call to help shape the next chapter, and to imagine what data science and data engineering can become when they're built the Clojure way.</p></div></div></div></div></div></div></div></td></tr><tr><td>15:00-16:50</td><td><div background-color="#550055"><div><div class="callout callout-style-default callout-important"><div class="callout-header" data-bs-target=".id-42-contents" data-bs-toggle="collapse"><div class="callout-title-container"><p class="big">macroexpand-1 &gt;</p></div></div><div class="callout-collapse collapse id-42-contents" id="id-42"><div class="callout-body-container callout-body"><div><i>(special session)</i><div></div><div><p>This will be the first meeting in the new series of <a href="https://scicloj.github.io/docs/community/groups/macroexpand/">macroexpand gatherings</a>. It will focus on initiating new projects of research/teaching/implementation/documentation/study group, that we will be running towards the next SciNoj conference later this year.</p><p>The session will begin by a few brief experience reports and proposals by participants. Then we will expand the discussion till we converge to actionable steps we will follow up on.</p></div></div></div></div></div></div></div></td></tr><tr><td>17:00-17:50</td><td><div background-color="#550055"><div><div class="callout callout-style-default callout-note"><div class="callout-header" data-bs-target=".id-43-contents" data-bs-toggle="collapse"><div class="callout-title-container"><p class="big">FlowStorm: understanding code by visualizations of execution recordings &gt;</p></div></div><div class="callout-collapse collapse id-43-contents" id="id-43"><div class="callout-body-container callout-body"><div><i>(data-analysis session)</i><div><div><a href="./speakers.html#alejandro">Alejandro</a><div></div></div><div><a href="./speakers.html#juan-monetta">Juan Monetta</a><div><img height="100" src="notebooks/images/Juan.png"></div></div></div><div><p>TBA</p><p>Note: Juan will join at the Q&amp;A part.</p></div></div></div></div></div></div></div></td></tr><tr><td>18:00-18:50</td><td><div background-color="#550055"><div><div class="callout callout-style-default callout-note"><div class="callout-header" data-bs-target=".id-44-contents" data-bs-toggle="collapse"><div class="callout-title-container"><p class="big">Analyzing Nairobi Bus Routes with Graph Algorithms and Agent-based Simulation &gt;</p></div></div><div class="callout-collapse collapse id-44-contents" id="id-44"><div class="callout-body-container callout-body"><div><i>(data-analysis session)</i><div><div><a href="./speakers.html#julius-kibunjia">Julius Kibunjia</a><div></div></div></div><div><p>An exploration of Nairobi's new and existing bus routes  to compare differences in traffic congestion, transit time and ease of travel between points. We build a graph representation of the routes on which we compute metrics and assess the behavior of agents in a simulation.</p></div></div></div></div></div></div></div></td></tr><tr><td>19:00-19:50</td><td><div background-color="#550055"><div><div class="callout callout-style-default callout-note"><div class="callout-header" data-bs-target=".id-45-contents" data-bs-toggle="collapse"><div class="callout-title-container"><p class="big">The Impact of Lane Reductions: A Data-Driven Look at Oakland Streets &gt;</p></div></div><div class="callout-collapse collapse id-45-contents" id="id-45"><div class="callout-body-container callout-body"><div><i>(data-analysis session)</i><div><div><a href="./speakers.html#heather-moore-farley">Heather Moore-Farley</a><div><img height="100" src="notebooks/images/Heather_1.jpg"><img height="100" src="notebooks/images/Heather_2.jpg"></div></div></div><div><p>The City of Oakland has done work to implement traffic calming measures on many of their streets. Do these reduce crashes and injuries? This talk with analyze the impact of lane reductions and addition of bike lanes and bus loading islands by examining crash data before and after the redesign in of Telegraph Ave in 2021. Then, I’ll look at Grand Avenue, which has not received any traffic calming measures, to explore who is currently most affect by traffic violence and who could benefit from similar interventions.</p></div></div></div></div></div></div></div></td></tr><tr><td>20:00-20:20</td><td><div background-color="#550055"><div><div class="callout callout-style-default callout-caution"><div class="callout-header" data-bs-target=".id-46-contents" data-bs-toggle="collapse"><div class="callout-title-container"><p class="big">Conclusion &gt;</p></div></div><div class="callout-collapse collapse id-46-contents" id="id-46"><div class="callout-body-container callout-body"><div><i></i><div></div><div></div></div></div></div></div></div></div></td></tr><tr><td>20:30-21:00</td><td><div background-color="#550055"><div><div class="callout callout-style-default callout-caution"><div class="callout-header" data-bs-target=".id-47-contents" data-bs-toggle="collapse"><div class="callout-title-container"><p class="big">Open chat (hosted) &gt;</p></div></div><div class="callout-collapse collapse id-47-contents" id="id-47"><div class="callout-body-container callout-body"><div><i></i><div></div><div></div></div></div></div></div></div></div></td></tr></tbody><script>new DataTable(document.currentScript.parentElement, {"paging":false,"scrollY":false,"sPaginationType":"full_numbers","order":[],"info":false,"columns":[{"width":"15%"},{"width":"85%"}]});</script></table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div style="background-color:grey;height:2px;width:100%;"></div>
+<div><pre><small><small>source: <a href="https://github.com/scicloj/clay/blob/main/notebooks/schedule.clj">notebooks/schedule.clj</a></small></small></pre></div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
