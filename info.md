@@ -192,5 +192,4 @@ Notes:
 * all talk durations include the discussion/Q&A part
 * data analysis talks are all 30 minute talk (some pre-recorded) + 20 minute discussion
 * background talks and special sessions are often longer
-* tea breaks are just open chat moderated by the emcees
 
