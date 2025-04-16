@@ -1,4 +1,4 @@
-project: {type: website}
+project: {type: website, output-dir: docs}
 website:
   title: 'SciNoj Light #1'
   navbar:

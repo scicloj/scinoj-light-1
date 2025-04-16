@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.42">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>speakers – SciNoj Light #1</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-86c7b1908c34045225fe7e63e278b56d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<meta property="og:image" content="notebooks/images/Noj.png">
+<meta property="og:title" content="SciNoj Light #1">
+<meta property="og:description" content="">
+
+
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">SciNoj Light #1</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./speakers.html" aria-current="page"> 
+<span class="menu-text">Speakers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./hosts.html"> 
+<span class="menu-text">Hosts</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#speakers" id="toc-speakers" class="nav-link active" data-scroll-target="#speakers">Speakers</a>
+  <ul>
+  <li><a href="#cvetomir-m-dimov" id="toc-cvetomir-m-dimov" class="nav-link" data-scroll-target="#cvetomir-m-dimov">Cvetomir M Dimov</a></li>
+  <li><a href="#daniel-slutsky" id="toc-daniel-slutsky" class="nav-link" data-scroll-target="#daniel-slutsky">Daniel Slutsky</a></li>
+  <li><a href="#eoin-carney" id="toc-eoin-carney" class="nav-link" data-scroll-target="#eoin-carney">Eoin Carney</a></li>
+  <li><a href="#harold" id="toc-harold" class="nav-link" data-scroll-target="#harold">Harold</a></li>
+  <li><a href="#heather-moore-farley" id="toc-heather-moore-farley" class="nav-link" data-scroll-target="#heather-moore-farley">Heather Moore-Farley</a></li>
+  <li><a href="#jelena-losic" id="toc-jelena-losic" class="nav-link" data-scroll-target="#jelena-losic">Jelena Losic</a></li>
+  <li><a href="#juan-monetta" id="toc-juan-monetta" class="nav-link" data-scroll-target="#juan-monetta">Juan Monetta</a></li>
+  <li><a href="#julius-kibunjia" id="toc-julius-kibunjia" class="nav-link" data-scroll-target="#julius-kibunjia">Julius Kibunjia</a></li>
+  <li><a href="#k-ram-narayan" id="toc-k-ram-narayan" class="nav-link" data-scroll-target="#k-ram-narayan">K Ram Narayan</a></li>
+  <li><a href="#kira-howe" id="toc-kira-howe" class="nav-link" data-scroll-target="#kira-howe">Kira Howe</a></li>
+  <li><a href="#lorelai-lyons" id="toc-lorelai-lyons" class="nav-link" data-scroll-target="#lorelai-lyons">Lorelai Lyons</a></li>
+  <li><a href="#naimish-mani-b" id="toc-naimish-mani-b" class="nav-link" data-scroll-target="#naimish-mani-b">Naimish Mani B</a></li>
+  <li><a href="#paula-gearon" id="toc-paula-gearon" class="nav-link" data-scroll-target="#paula-gearon">Paula Gearon</a></li>
+  <li><a href="#siyoung-byun" id="toc-siyoung-byun" class="nav-link" data-scroll-target="#siyoung-byun">Siyoung Byun</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+
+
+
+
+<style></style>
+<style>.printedClojure .sourceCode {
+  background-color: transparent;
+  border-style: none;
+}
+</style>
+<style>.clay-limit-image-width .clay-image {max-width: 100%}
+.clay-side-by-side .sourceCode {margin: 0}
+.clay-side-by-side {margin: 1em 0}
+</style>
+<script src="speakers_files/md-default0.js" type="text/javascript"></script>
+<script src="speakers_files/md-default1.js" type="text/javascript"></script>
+<section id="speakers" class="level1">
+<h1>Speakers</h1>
+<p>Here are the conference speakers:</p>
+<section id="cvetomir-m-dimov" class="level2">
+<h2 class="anchored" data-anchor-id="cvetomir-m-dimov">Cvetomir M Dimov</h2>
+<p><img src="notebooks/images/Cvetomir.jpeg" height="200"></p>
+<p>I am a researcher in Cognitive Psychology. In previous work I have studied human decision making, skill acquisition and memory. My recent focus has been the study of the complex processes behind collaboration. I have already developed a collaborative skill acquisition model. I am currently working on refining that model with speech capabilities.</p>
+</section>
+<section id="daniel-slutsky" class="level2">
+<h2 class="anchored" data-anchor-id="daniel-slutsky">Daniel Slutsky</h2>
+<p><img src="notebooks/images/Daniel.jpeg" height="200"></p>
+<p>Daniel Slutsky is a mathematician and a data science consultant. His current main focus is at the Scicloj group. There, he is involved in community building and co-maintaining a few of the Scicloj tools and libraries. His approach towards open-source communities is drawn from his past experiences in various activist groups and his involvement in local yoga communities.</p>
+</section>
+<section id="eoin-carney" class="level2">
+<h2 class="anchored" data-anchor-id="eoin-carney">Eoin Carney</h2>
+<p><img src="notebooks/images/Eoin.jpg" height="200"></p>
+<p>I work in government administration for my day job. I have a hobbyist interest in programming and data science, and have been learning Clojure for around 3 years. I also have a background in academic philosophy and completed a PhD thesis on the work of Paul Ricoeur in 2018.</p>
+</section>
+<section id="harold" class="level2">
+<h2 class="anchored" data-anchor-id="harold">Harold</h2>
+<p><img src="notebooks/images/Harold.jpeg" height="200"></p>
+<p>Owner: TechAscent - Mathematician | Software Engineer | Cloud (AWS) | Clojure | JS | Data Science | AI/ML</p>
+</section>
+<section id="heather-moore-farley" class="level2">
+<h2 class="anchored" data-anchor-id="heather-moore-farley">Heather Moore-Farley</h2>
+<p><img src="notebooks/images/Heather_1.jpg" height="200"> <img src="notebooks/images/Heather_2.jpg" height="200"></p>
+<p>Heather is a Clojurist in Oakland, California, who cares a lot about street safety and the quality of life in her community. When she isn’t working, she is biking around the East Bay, drumming, or knitting.</p>
+</section>
+<section id="jelena-losic" class="level2">
+<h2 class="anchored" data-anchor-id="jelena-losic">Jelena Losic</h2>
+<p>My name is Jelena, and I am a PhD student at the Faculty of Mathematics, University of Belgrade, specializing in Complex Networks. Over the past 10 years, I have worked as a functional programmer, primarily using Scala, with some experience in Clojure as well. My research interests lie in exploring the intersections of mathematics and scientific disciplines, uncovering the boundaries where these fields converge and interact.</p>
+</section>
+<section id="juan-monetta" class="level2">
+<h2 class="anchored" data-anchor-id="juan-monetta">Juan Monetta</h2>
+<p><img src="notebooks/images/Juan.png" height="200"></p>
+<p>Juan is a seasoned software developer from Uruguay, with professional experience dating back to the late 1990s. Since 2011, he has specialized in Clojure, working on a wide range of domains. Lately he has been focusing on development tools aiming to make programming more enjoyable and insightful. Have created and currently maintain FlowStorm, as well as several other tools like Clofidence, Clindex, and Clograms - all aimed at improving code exploration, testing, and visualization. Juan is also active in the Clojure community, sharing his work through open source projects, technical talks, and contributions. His passion lies in making software development more interactive, visual, and fun.</p>
+</section>
+<section id="julius-kibunjia" class="level2">
+<h2 class="anchored" data-anchor-id="julius-kibunjia">Julius Kibunjia</h2>
+<p>A programmer from Nairobi, Kenya interested in applying software to all aspects of life.</p>
+</section>
+<section id="k-ram-narayan" class="level2">
+<h2 class="anchored" data-anchor-id="k-ram-narayan">K Ram Narayan</h2>
+<p><img src="notebooks/images/Ram.jpg" height="200"></p>
+<p>Software Engineer passionate about functional programming and building scalable, elegant backend systems.</p>
+</section>
+<section id="kira-howe" class="level2">
+<h2 class="anchored" data-anchor-id="kira-howe">Kira Howe</h2>
+<p><img src="notebooks/images/Kira.png" height="200"></p>
+<p>Kira’s been writing software for the past decade with a focus on data-intensive web apps and a particular interest in Clojure programming and data visualization. She loves open source development, fostering communities online and in-person, and learning new things. When she’s not at her desk, you can find Kira teaching yoga, playing violin, or running with her dog.</p>
+</section>
+<section id="lorelai-lyons" class="level2">
+<h2 class="anchored" data-anchor-id="lorelai-lyons">Lorelai Lyons</h2>
+<p><img src="notebooks/images/Lor.jpg" height="200"></p>
+<p>Lorelai is a technologist and artist exploring the intersection of neuroscience, programming, and ethics. With a background in music and philosophy, she brings a unique perspective to data science—blending curiosity, critical thinking, and creative expression.</p>
+<p>She’s active in the Clojure community as a board member of Clojurists Together, a member of Clojure Camp, and an organizer with SciCloj. Lorelai is currently focused on developing accessible tooling for brain-computer interfaces, advocating for ethical neurotechnology, and making brain data more approachable for developers of all backgrounds.</p>
+</section>
+<section id="naimish-mani-b" class="level2">
+<h2 class="anchored" data-anchor-id="naimish-mani-b">Naimish Mani B</h2>
+<p><img src="notebooks/images/Naimish.jpeg" height="200"></p>
+<p>Mechanical Engineering graduate with a strong interest in Computational Engineering. Experienced in Numerical Methods, Backend Development and Machine Learning. Passionate about climate science.</p>
+</section>
+<section id="paula-gearon" class="level2">
+<h2 class="anchored" data-anchor-id="paula-gearon">Paula Gearon</h2>
+<p><img src="notebooks/images/Paula.jpeg" height="200"></p>
+<p>Paula Gearon is a Semantic Webstress and Clojure developer with a focusing on graph systems and technical architecture, and AI. Her background includes building infrastructure and low-level systems, and researching AI. Paula has served as a technical lead on both commercial and open-source projects, with experience in data storage, processing, and language internals. Her work extends to standards development, having been a lead editor for the SPARQL standard for RDF databases. An Australian native now based in Virginia, USA, she balances her professional life with study, triathlons, cooking, and family time.</p>
+</section>
+<section id="siyoung-byun" class="level2">
+<h2 class="anchored" data-anchor-id="siyoung-byun">Siyoung Byun</h2>
+<p><img src="notebooks/images/Siyoung.jpg" height="200"></p>
+<p>Siyoung Byun is currently a freelance fullstack Clojure developer living in Seoul, South Korea. She studied Astrophysics for her undergrad in Canada, where she first got into programming and data analysis while running simulations of dying stars crashing into each other. Ever since she was introduced to Clojure at a previous employer in 2018, it quickly became her favorite programming language and her passion. Beyond software development and data analysis, she likes to hike, bike, knit, sew and snuggle with her cat in her free time.</p>
+<div style="background-color:grey;height:2px;width:100%;"></div>
+<div><pre><small><small>source: <a href="https://github.com/scicloj/clay/blob/main/notebooks/speakers.clj">notebooks/speakers.clj</a></small></small></pre></div>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

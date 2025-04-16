@@ -8,9 +8,10 @@
                            "speakers.clj"
                            "hosts.clj"]
              :run-quarto false
-             :base-target-path "docs"})
+             :base-target-path "website"})
 
-(->> {:project {:type :website}
+(->> {:project {:type :website
+                :output-dir :docs}
       :website {:title "SciNoj Light #1"
                 :navbar {:search true
                          :left [{:href "index.qmd"
@@ -22,5 +23,5 @@
                       ;; :css "styles.css"
                       :toc true}}}
      yaml/generate-string
-     (spit "docs/_quarto.yml"))
+     (spit "website/_quarto.yml"))
 
