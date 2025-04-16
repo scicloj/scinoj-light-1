@@ -8,4 +8,4 @@ website:
     - speakers.qmd
     - hosts.qmd
 format:
-  html: {theme: flatly, linkcolor: '#440044', toc: true}
+  html: {theme: cosmo, linkcolor: '#440044', toc: true}

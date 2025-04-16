@@ -18,7 +18,7 @@
                                  :text "Home"}
                                 "speakers.qmd"
                                 "hosts.qmd"]}}
-      :format {:html {:theme "flatly"
+      :format {:html {:theme "cosmo"
                       :linkcolor "#440044"
                       ;; :css "styles.css"
                       :toc true}}}
