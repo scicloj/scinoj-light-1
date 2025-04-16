@@ -6,7 +6,8 @@
              :base-source-path "notebooks"
              :source-path ["index.clj"
                            "speakers.clj"
-                           "hosts.clj"]
+                           "hosts.clj"
+                           "sessions.clj"]
              :run-quarto false
              :base-target-path "website"})
 
@@ -17,7 +18,8 @@
                          :left [{:href "index.qmd"
                                  :text "Home"}
                                 "speakers.qmd"
-                                "hosts.qmd"]}}
+                                "hosts.qmd"
+                                "sessions.qmd"]}}
       :format {:html {:theme "cosmo"
                       :linkcolor "#440044"
                       ;; :css "styles.css"

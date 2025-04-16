@@ -27,7 +27,7 @@
   (format "%s %s\n\n%s\n\n%s\n"
           (str/join "" (repeat depth "#"))
           (if link
-            (format "[%s](/speakers/#%s)" name (clojure.core/name id))
+            (format "[%s](/speakers.html#%s)" name (clojure.core/name id))
             (or name ""))
           (images-md {:height image-height} images)
           (or (when include-bio bio)
