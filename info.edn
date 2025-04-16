@@ -170,6 +170,7 @@
              :speakers #{:lorelai-lyons}
              :abstract 
              "This is an introductory talk to the field of Brain-Computer Interfacing, and how Clojure can power intuitive, composable data workflows for real-world brain data. Drawing from my journey through BCI research, I’ll demonstrate how Clojure's unique strengths simplify signal processing, data visualization, and working with APIs such as the OpenBCI 'BrainFlow' API.
+
 The session also invites a broader conversation about the ethical implications of brain-computer interfaces, and how developers can meaningfully contribute to this rapidly evolving field. This talk is for anyone curious about brain data, functional programming, or building new tools at the edge of human-computer interaction."}
 
             "FlowStorm: understanding code by visualizations of execution recordings"
