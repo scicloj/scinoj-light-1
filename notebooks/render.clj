@@ -7,7 +7,8 @@
              :source-path ["index.clj"
                            "speakers.clj"
                            "hosts.clj"
-                           "sessions.clj"]
+                           "sessions.clj"
+                           "schedule.clj"]
              :run-quarto false
              :base-target-path "website"})
 
@@ -19,7 +20,8 @@
                                  :text "Home"}
                                 "speakers.qmd"
                                 "hosts.qmd"
-                                "sessions.qmd"]}}
+                                "sessions.qmd"
+                                "schedule.qmd"]}}
       :format {:html {:theme "cosmo"
                       :linkcolor "#440044"
                       ;; :css "styles.css"
