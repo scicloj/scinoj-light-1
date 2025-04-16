@@ -1,0 +1,57 @@
+---
+format:
+  html:
+    toc: true
+    toc-depth: 4
+    theme: [cosmo]
+    output-file: index.html
+code-block-background: true
+include-in-header:
+  text: |
+    <meta property="og:image" content="notebooks/images/Noj.png"/>
+    <meta property="og:title" content="SciNoj Light 1"/>
+    <meta property="og:description" content="A lightweight Clojure conference of data analysis stories"/>
+number-depth: 0
+
+---
+<style></style><style>.printedClojure .sourceCode {
+  background-color: transparent;
+  border-style: none;
+}
+</style><style>.clay-limit-image-width .clay-image {max-width: 100%}
+.clay-side-by-side .sourceCode {margin: 0}
+.clay-side-by-side {margin: 1em 0}
+</style>
+<script src="index_files/md-default0.js" type="text/javascript"></script><script src="index_files/md-default1.js" type="text/javascript"></script>
+![](notebooks/images/Noj.png){fig-alt="Noj logo"}
+
+SciNoj Light is an online conference where Clojurians will share their short-term data analysis stories.
+
+It is a first in a series of conferences that will explore new fields and use case for Clojure, and specifically the [Noj](https://scicloj.github.io/noj/) data science toolkit.
+
+<a class="btn btn-secondary btn-sm px-4 mb-2" href="https://scicloj.github.io/docs/community/contact/" role="button">Any questions? Let us talk</a>
+
+
+# Timeline
+* May 10 - [Prep workshop](https://scicloj.github.io/blog/data-analyis-with-clojure-free-workshop-may-10th-initial-survey/)
+* May 16-17 - [Conference](https://clojureverse.org/t/scinoj-light-1st-conference/)
+
+
+# Chat
+All communication in preparation and during the conference will take place at the [Clojurians Zulip chat](https://scicloj.github.io/docs/community/chat/), specifically in the [#**scinoj-light-1**](https://clojurians.zulipchat.com/#narrow/channel/479601-scinoj-light-1) channel.
+
+
+# Participating
+Participating is online and free but requires registration.
+We will soon share the registration form.
+
+
+```{=html}
+<div style="background-color:grey;height:2px;width:100%;"></div>
+```
+
+
+
+```{=html}
+<div><pre><small><small>source: <a href="https://github.com/scicloj/clay/blob/main/notebooks/index.clj">notebooks/index.clj</a></small></small></pre></div>
+```

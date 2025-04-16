@@ -1,0 +1,11 @@
+project: {type: website}
+website:
+  title: 'SciNoj Light #1'
+  navbar:
+    search: true
+    left:
+    - {href: index.qmd, text: Home}
+    - speakers.qmd
+    - hosts.qmd
+format:
+  html: {theme: flatly, linkcolor: '#440044', toc: true}

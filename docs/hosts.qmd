@@ -1,0 +1,80 @@
+---
+format:
+  html:
+    toc: true
+    toc-depth: 4
+    theme: [cosmo]
+    output-file: hosts.html
+code-block-background: true
+include-in-header:
+  text: |
+    <meta property="og:image" content="notebooks/images/Noj.png"/>
+    <meta property="og:title" content="SciNoj Light 1"/>
+    <meta property="og:description" content="A lightweight Clojure conference of data analysis stories"/>
+number-depth: 0
+
+---
+<style></style><style>.printedClojure .sourceCode {
+  background-color: transparent;
+  border-style: none;
+}
+</style><style>.clay-limit-image-width .clay-image {max-width: 100%}
+.clay-side-by-side .sourceCode {margin: 0}
+.clay-side-by-side {margin: 1em 0}
+</style>
+<script src="hosts_files/md-default0.js" type="text/javascript"></script><script src="hosts_files/md-default1.js" type="text/javascript"></script>
+
+# Hosts
+
+Here are the conference hosts/emcees:
+
+## Adham Omran
+![](notebooks/images/Adham.jpeg){height=200}
+
+Backend developer and data analyst specializing in Clojure. I build the API for iData, an Iraqi platform enabling data-driven decision-making. Passionate about Clojure's data analysis ecosystem.
+
+ A backend developer with a passion for crafting efficient, scalable systems and uncovering valuable insights through data analysis. With experience in Clojure, Datomic, R & SQL, I specialize in leveraging its functional programming paradigm to build robust architectures that solve complex challenges with elegance and precision. Beyond development, I bring a strong focus on data analysis, using advanced methodologies to process, interpret, and visualize data in ways that empower decision-making. My ability to bridge backend development with actionable insights sets me apart as a versatile and impactful contributor to any team or project.
+ 
+
+
+## Aditya Athalye
+![](notebooks/images/Aditya.jpg){height=200}
+
+Hi! Computationally, I identify as a Clojure-brained, mostly-functional, org-mode enjoying, grug-brained, generalist programmer. These days, I blog + think + work at evalapply.org. I've been Clojing since 2013, at work and/or as a hobbyist, and have lurked in the public Clojureverse for about the same time. I love teaching the language and ideas therein, and have had the chance to do so at various conferences (IN/Clojure, FunctionalConf, LambdaWorld), local meetups, and in-house for staff training. And I try to share / give back in the spirit of a self-directive called "Learn Generously". So, I am happy to make myself useful, here at SciCloj Light! May The Source be with us.
+ 
+
+
+## Daniel Slutsky
+![](notebooks/images/Daniel.jpeg){height=200}
+
+Daniel Slutsky is a mathematician and a data science consultant. His current main focus is at the Scicloj group. There, he is involved in community building and co-maintaining a few of the Scicloj tools and libraries.
+ His approach towards open-source communities is drawn from his past experiences in various activist groups and his involvement in local yoga communities.
+ 
+
+
+## Kiran Kulkarni
+![](notebooks/images/Kiran.jpg){height=200}
+
+I'm Kiran Kulkarni—a data nerd who believes in making decisions with gut and validating with data. I began as a Linux Kernel developer, then built high-scale backend systems in Clojure and big data pipelines that processed TBs data daily in Python. I’m passionate about building high-quality products, high-performing teams, scalable architectures, and insightful data systems. Also, I love street food and traveling to explore street food.
+ 
+
+
+## Lorelai Lyons
+![](notebooks/images/Lor.jpg){height=200}
+
+Lorelai is a technologist and artist exploring the intersection of neuroscience, programming, and ethics. With a background in music and philosophy, she brings a unique perspective to data science—blending curiosity, critical thinking, and creative expression.
+
+ She's active in the Clojure community as a board member of Clojurists Together, a member of Clojure Camp, and an organizer with SciCloj. Lorelai is currently focused on developing accessible tooling for brain-computer interfaces, advocating for ethical neurotechnology, and making brain data more approachable for developers of all backgrounds.
+ 
+
+
+
+```{=html}
+<div style="background-color:grey;height:2px;width:100%;"></div>
+```
+
+
+
+```{=html}
+<div><pre><small><small>source: <a href="https://github.com/scicloj/clay/blob/main/notebooks/hosts.clj">notebooks/hosts.clj</a></small></small></pre></div>
+```
