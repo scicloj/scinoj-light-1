@@ -123,7 +123,7 @@
              :abstract
              "This session will offer a brief intro to probability theory concepts and then use them to explain common statistical methods. It will repeat some content from our [May 10th workshop](https://scicloj.github.io/blog/data-analyis-with-clojure-free-workshop-may-10th-initial-survey/) so we can discuss it further at the conference.
 
- he session also invites a broader conversation about the ethical implications of brain-computer interfaces, and how developers can meaningfully contribute to this rapidly evolving field. This talk is for anyone curious about brain data, functional programming, or building new tools at the edge of human-computer interaction."}
+ The session also invites a broader conversation about the ethical implications of brain-computer interfaces, and how developers can meaningfully contribute to this rapidly evolving field. This talk is for anyone curious about brain data, functional programming, or building new tools at the edge of human-computer interaction."}
 
             "An intro to the Noj toolkit"
             {:type :background
