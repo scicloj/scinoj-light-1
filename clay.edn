@@ -1,0 +1,10 @@
+{:remote-repo {:git-url "https://github.com/scicloj/clay"
+               :branch  "main"}
+ :quarto      {:format            {:html {:theme [:cosmo "notebooks/custom.scss"]}}
+               :include-in-header {:text             "<meta property=\"og:image\" content=\"notebooks/images/Noj.png\"/>
+<meta property=\"og:title\" content=\"SciNoj Light 1\"/>
+<meta property=\"og:description\" content=\"A lightweight Clojure conference of data analysis stories\"/>
+"}
+               :number-depth 0}
+ :base-target-path "temp"}
+
