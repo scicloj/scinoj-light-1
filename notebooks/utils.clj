@@ -50,7 +50,7 @@
      (keyword (str "h" depth))
      :div)
    (if link
-     [:a {:href (str "/speakers.html#" id)}
+     [:a {:href (str "/speakers.html#" (name id))}
       full-name]
      [:p full-name])
    (images-hiccup {:height image-height} images)
