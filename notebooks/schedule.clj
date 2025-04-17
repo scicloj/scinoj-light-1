@@ -48,21 +48,27 @@
                                         (kind/hiccup
                                          [:div
                                           (if abstract
-                                            [:details
-                                             [:summary title]
-                                             [:div
-                                              [:i (some->> session-type
-                                                           name
-                                                           (format "(%s session)"))]
-                                              (->> speakers
-                                                   sort
-                                                   (utils/people-hiccup
-                                                    {:include-bio false
-                                                     :depth 0
-                                                     :link true
-                                                     :image-height 100})
-                                                   kind/hiccup)
-                                              (kind/md abstract)]]
+                                            [:div {:style {:background-color
+                                                           (case session-type
+                                                             :special "#ffeeff"
+                                                             :background "#ffffee"
+                                                             :data-analysis "#eeffff"
+                                                             "#ffffff")}} 
+                                             [:details
+                                              [:summary title]
+                                              [:div
+                                               [:i (some->> session-type
+                                                            name
+                                                            (format "(%s session)"))]
+                                               (->> speakers
+                                                    sort
+                                                    (utils/people-hiccup
+                                                     {:include-bio false
+                                                      :depth 0
+                                                      :link true
+                                                      :image-height 100})
+                                                    kind/hiccup)
+                                               (kind/md abstract)]]]
                                             title)]))))
                                    (tc/select-columns [:time :title])
                                    tc/rows
