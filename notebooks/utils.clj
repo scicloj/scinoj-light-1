@@ -63,7 +63,6 @@
   ([params people-ids]
    (let [{:keys [people]} (info)]
      (->> people-ids
-          sort
           (map (fn [id]
                  (person-md (merge (people id)
                                    {:id id}
@@ -76,7 +75,6 @@
   ([params people-ids]
    (let [{:keys [people]} (info)]
      (->> people-ids
-          sort
           (map (fn [id]
                  (person-hiccup (merge (people id)
                                        {:id id}
