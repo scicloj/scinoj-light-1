@@ -142,7 +142,7 @@
 
             "Noj deep dive"
             {:session-type :background
-             :speakers #{:harold :daniel-slutsky}
+             :speakers [:harold :daniel-slutsky]
              :abstract
              "This session is intended to provide the audience with a technical background for the more concrete data analysis sessions in the conference.
  We will introduce a few of the [libraries](https://scicloj.github.io/noj/noj_book.underlying_libraries.html) behind the [Noj](https://scicloj.github.io/noj/) toolkit and practice using them to process, analyse, and visualize real-world data."}
@@ -199,7 +199,7 @@ The session also invites a broader conversation about the ethical implications o
 
             "Tropical cyclone trajectory modelling"
             {:session-type :data-analysis
-             :speakers #{:k-ram-narayan :naimish-mani-b}
+             :speakers [:naimish-mani-b :k-ram-narayan]
              :abstract "Tropical Cyclone's happen every year and claim hundreds of lives and billions in damages. Accurate cyclone track forecasting is crucial for disaster preparedness and mitigation. Timely predictions help authorities issue early warnings, evacuate affected areas, and minimize economic and human losses. This project focuses on forecasting cyclone tracks using historical data from the India Meteorological Department (IMD) and Wind Velocity Vectors calculated using EUMETSAT's METEOSAT-7 data."}}
  :schedule-drafts {"Draft #1"
                    [{:day :Fri :time "9:00-9:25" :title "Hello"}
