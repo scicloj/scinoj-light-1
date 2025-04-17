@@ -20,24 +20,39 @@
                :show false
                :base-target-path "website"}))
 
-(defn quarto-config []
+(def repo-menu
+  [{:text "Source"
+    :href "https://github.com/scicloj/scinoj-light-1/"}
+   {:text "Any issues?"
+    :href "https://github.com/scicloj/scinoj-light-1/issues"}
+   {:text "PRs welcome"
+    :href "https://github.com/scicloj/scinoj-light-1/pulls"}])
+
+(def navbar-contents
+  [{:href "index.qmd"
+    :text "Home"}
+   {:text "People"
+    :menu ["speakers.qmd"
+           "hosts.qmd"]}
+   {:text "Content"
+    :menu ["sessions.qmd"
+           "schedule.qmd"]}])
+
+
+(def quarto-config
   (yaml/generate-string
    {:project {:type :website}
     :website {:title "SciNoj Light #1"
               :navbar {:search true
-                       :left [{:href "index.qmd"
-                               :text "Home"}
-                              "speakers.qmd"
-                              "hosts.qmd"
-                              "sessions.qmd"
-                              "schedule.qmd"]
-                       :tools [{:icon :github
-                                :menu [{:text "Source"
-                                        :href "https://github.com/scicloj/scinoj-light-1/"}
-                                       {:text "Any issues?"
-                                        :href "https://github.com/scicloj/scinoj-light-1/issues"}
-                                       {:text "PRs welcome"
-                                        :href "https://github.com/scicloj/scinoj-light-1/pulls"}]}]}}
+                       :left navbar-contents
+                       :tools [{:icon :person-video2
+                                :menu ["sessions.qmd"
+                                       "schedule.qmd"]}
+                               {:icon :people
+                                :menu ["speakers.qmd"
+                                       "hosts.qmd"]}
+                               {:icon :github
+                                :menu repo-menu}]}}
     :format {:html {:theme "cosmo"
                     :linkcolor "#440044"
                     ;; :css "styles.css"
@@ -45,7 +60,7 @@
 
 (defn write-quarto-config! []
   (spit "website/_quarto.yml"
-        (quarto-config)))
+        quarto-config))
 
 (defn quarto-render! []
   (->> (shell/with-sh-dir
