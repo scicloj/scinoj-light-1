@@ -17,28 +17,6 @@
             [clojure.string :as str]
             [tablecloth.api :as tc]))
 
-(def *counter (atom 0))
-(defn next-id! []
-  (str "id-" (swap! *counter inc)))
-
-(defn collapsible [{:keys [title content callout-type]}]
-  (let [id (next-id!)]
-    (kind/hiccup
-     [:div
-      [:div
-       {:class (str
-                "callout callout-style-default "
-                "callout-" (name callout-type))}
-       [:div.callout-header
-        {:data-bs-toggle :collapse
-         :data-bs-target (str "." id "-contents")}
-        [:div.callout-title-container
-         [:p.big (str title " >")]]]
-       [:div.callout-collapse.collapse {:id id
-                                        :class (str id "-contents")}
-        [:div.callout-body-container.callout-body
-         content]]]])))
-
 (let [{:keys [schedule-drafts sessions people]} (utils/info)]
   (kind/fragment
    (concat [(kind/md "::: {.panel-tabset}")]
@@ -60,47 +38,35 @@
                                   :Sat "### Sat May 17th"))
                                (-> day
                                    day->schedule
-                                   (tc/map-columns :split-time [:time] #(str/split % #"-"))
-                                   (tc/map-columns :start [:split-time] first)
-                                   (tc/map-columns :end [:split-time] second)
                                    (tc/map-columns
                                     :title
                                     [:title]
                                     (fn [title]
                                       (let [{:keys [type
                                                     speakers
-                                                    abstract]} (sessions title)
-                                            content [:div
-                                                     [:i (some->>
-                                                          type
-                                                          name
-                                                          (format "(%s session)"))]
-                                                     (->> speakers
-                                                          sort
-                                                          (utils/people-hiccup
-                                                           {:include-bio false
-                                                            :depth 0
-                                                            :link true
-                                                            :image-height 100})
-                                                          kind/hiccup)
-                                                     (kind/md abstract)]]
+                                                    abstract]} (sessions title)]
                                         (kind/hiccup
-                                         [:div {:background-color "#550055"}
-                                          (collapsible
-                                           {:title title
-                                            :content content
-                                            :callout-type (case type
-                                                            :special :important
-                                                            :data-analysis :note
-                                                            :background :tip
-                                                            ;; else
-                                                            :caution)})]))))
+                                         [:div
+                                          (if abstract
+                                            [:details
+                                             [:summary title]
+                                             [:div
+                                              [:i (some->> type
+                                                           name
+                                                           (format "(%s session)"))]
+                                              (->> speakers
+                                                   sort
+                                                   (utils/people-hiccup
+                                                    {:include-bio false
+                                                     :depth 0
+                                                     :link true
+                                                     :image-height 100})
+                                                   kind/hiccup)
+                                              (kind/md abstract)]]
+                                            title)]))))
                                    (tc/select-columns [:time :title])
-                                   (kind/table {:use-datatables true
-                                                :datatables {:info false
-                                                             :scrollY false
-                                                             :columns [{:width "15%"}
-                                                                       {:width "85%"}]}}))]))
+                                   tc/rows
+                                   (kind/table {:style {:table-layout :auto}}))]))
                            kind/fragment)
                       (kind/md ":::")]))))
            [(kind/md ":::")])))
