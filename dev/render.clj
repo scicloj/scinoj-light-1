@@ -55,6 +55,7 @@
 (defn show! []
   (scicloj.clay.v2.server/update-page!
    {:show true
+    :browse true
     :base-target-path "docs"
     :full-target-path "docs/index.html"}))
 
