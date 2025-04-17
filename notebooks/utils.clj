@@ -26,7 +26,7 @@
        (into [:div])))
 
 (defn person-md [{:keys [id
-                         name images bio
+                         full-name images bio
                          include-bio depth link image-height]
                   :or {include-bio true
                        depth 2
@@ -34,14 +34,14 @@
   (format "%s %s\n\n%s\n\n%s\n"
           (str/join "" (repeat depth "#"))
           (if link
-            (format "[%s](/speakers.html#%s)" name (clojure.core/name id))
-            (or name ""))
+            (format "[%s](/speakers.html#%s)" full-name (name id))
+            (or full-name ""))
           (images-md {:height image-height} images)
           (or (when include-bio bio)
               "")))
 
 (defn person-hiccup [{:keys [id
-                             name images bio
+                             full-name images bio
                              include-bio depth link image-height]
                       :or {include-bio true
                            depth 2
@@ -50,9 +50,9 @@
      (keyword (str "h" depth))
      :div)
    (if link
-     [:a {:href (str "/speakers.html#" (clojure.core/name id))}
-      name]
-     [:p name])
+     [:a {:href (str "/speakers.html#" id)}
+      full-name]
+     [:p full-name])
    (images-hiccup {:height image-height} images)
    (when include-bio (some-> bio kind/md))])
 
