@@ -12,7 +12,7 @@
 
 ;; # Timeline
 ;; * May 10 - [Prep workshop](https://scicloj.github.io/blog/data-analyis-with-clojure-free-workshop-may-10th-initial-survey/)
-;; * May 16-17 - [Conference](https://clojureverse.org/t/scinoj-light-1st-conference/)
+;; * May 16-17 - [Event](https://clojureverse.org/t/scinoj-light-1st-conference/), [Tentative schedule](./schedule.html)
 
 ;; # Chat
 ;; All communication in preparation and during the conference will take place at the [Clojurians Zulip chat](https://scicloj.github.io/docs/community/chat/), specifically in the [#**scinoj-light-1**](https://clojurians.zulipchat.com/#narrow/channel/479601-scinoj-light-1) channel.
