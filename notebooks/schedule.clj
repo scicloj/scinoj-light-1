@@ -42,7 +42,7 @@
                                     :title
                                     [:title]
                                     (fn [title]
-                                      (let [{:keys [type
+                                      (let [{:keys [session-type
                                                     speakers
                                                     abstract]} (sessions title)]
                                         (kind/hiccup
@@ -51,7 +51,7 @@
                                             [:details
                                              [:summary title]
                                              [:div
-                                              [:i (some->> type
+                                              [:i (some->> session-type
                                                            name
                                                            (format "(%s session)"))]
                                               (->> speakers

@@ -8,8 +8,8 @@
 
 (let [{:keys [sessions people]} (utils/info)]
   (->> sessions
-       (group-by (fn [[_ {:keys [type]}]]
-                   type))
+       (group-by (fn [[_ {:keys [session-type]}]]
+                   session-type))
        (map (fn [[session-type type-sessions]]
               (str (format "## %s\n"
                            (case session-type
@@ -17,7 +17,7 @@
                              :data-analysis "Data analysis stories"
                              :background "Background knowledge"))
                    (->> type-sessions
-                        (map (fn [[title {:keys [type speakers abstract]}]]
+                        (map (fn [[title {:keys [session-type speakers abstract]}]]
                                (format "### %s\n%s\n%s\n"
                                        title
                                        (->> speakers
