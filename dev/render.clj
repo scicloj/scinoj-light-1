@@ -30,7 +30,14 @@
                               "speakers.qmd"
                               "hosts.qmd"
                               "sessions.qmd"
-                              "schedule.qmd"]}}
+                              "schedule.qmd"]
+                       :tools [{:icon :github
+                                :menu [{:text "Source"
+                                        :href "https://github.com/scicloj/scinoj-light-1/"}
+                                       {:text "Any issues?"
+                                        :href "https://github.com/scicloj/scinoj-light-1/issues"}
+                                       {:text "PRs welcome"
+                                        :href "https://github.com/scicloj/scinoj-light-1/pulls"}]}]}}
     :format {:html {:theme "cosmo"
                     :linkcolor "#440044"
                     ;; :css "styles.css"
