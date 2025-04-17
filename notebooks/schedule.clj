@@ -68,6 +68,7 @@
                                                       :link true
                                                       :image-height 100})
                                                     kind/hiccup)
+                                               [:br]
                                                (kind/md abstract)]]]
                                             title)]))))
                                    (tc/select-columns [:time :title])
