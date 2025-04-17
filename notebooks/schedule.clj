@@ -1,4 +1,4 @@
-;; # Schedule Drafts
+;; # Tentative Schedule
 
 ;; The content of this page is temporary and is used in the planning stage.
 
@@ -19,62 +19,60 @@
 
 (let [{:keys [schedule-drafts sessions people]} (utils/info)]
   (kind/fragment
-   (concat [(kind/md "::: {.panel-tabset}")]
-           (->> schedule-drafts
-                (mapcat
-                 (fn [[draft-name schedule]]
-                   (let [day->schedule (-> schedule
-                                           tc/dataset
-                                           (tc/group-by :day {:result-type
-                                                              :as-map}))]
-                     [(kind/md (format "## %s\n" draft-name))
-                      (kind/md "::: {.panel-tabset}")
-                      (->> [:Fri :Sat]
-                           (mapcat
-                            (fn [day]
-                              [(kind/md
-                                (case day
-                                  :Fri "### Fri May 16th"
-                                  :Sat "### Sat May 17th"))
-                               (-> day
-                                   day->schedule
-                                   (tc/map-columns
-                                    :title
-                                    [:title]
-                                    (fn [title]
-                                      (let [{:keys [session-type
-                                                    speakers
-                                                    abstract]} (sessions title)]
-                                        (kind/hiccup
-                                         [:div
-                                          (if abstract
-                                            [:div {:style {:background-color
-                                                           (case session-type
-                                                             :special "#ffeeff"
-                                                             :background "#ffffee"
-                                                             :data-analysis "#eeffff"
-                                                             "#ffffff")}} 
-                                             [:details
-                                              [:summary title]
-                                              [:div
-                                               [:i (some->> session-type
-                                                            name
-                                                            (format "(%s session)"))]
-                                               (->> speakers
-                                                    sort
-                                                    (utils/people-hiccup
-                                                     {:include-bio false
-                                                      :depth 0
-                                                      :link true
-                                                      :image-height 100})
-                                                    kind/hiccup)
-                                               [:br]
-                                               (kind/md abstract)]]]
-                                            title)]))))
-                                   (tc/select-columns [:time :title])
-                                   tc/rows
-                                   (kind/table {:style {:table-layout :auto}}))]))
-                           kind/fragment)
-                      (kind/md ":::")]))))
-           [(kind/md ":::")])))
+   (->> schedule-drafts
+        (mapcat
+         (fn [[draft-name schedule]]
+           (let [day->schedule (-> schedule
+                                   tc/dataset
+                                   (tc/group-by :day {:result-type
+                                                      :as-map}))]
+             [(kind/md (format "(%s)\n" draft-name))
+              (kind/md "::: {.panel-tabset}")
+              (->> [:Fri :Sat]
+                   (mapcat
+                    (fn [day]
+                      [(kind/md
+                        (case day
+                          :Fri "### Fri May 16th"
+                          :Sat "### Sat May 17th"))
+                       (-> day
+                           day->schedule
+                           (tc/map-columns
+                            :title
+                            [:title]
+                            (fn [title]
+                              (let [{:keys [session-type
+                                            speakers
+                                            abstract]} (sessions title)]
+                                (kind/hiccup
+                                 [:div
+                                  (if abstract
+                                    [:div {:style {:background-color
+                                                   (case session-type
+                                                     :special "#ffeeff"
+                                                     :background "#ffffee"
+                                                     :data-analysis "#eeffff"
+                                                     "#ffffff")}} 
+                                     [:details
+                                      [:summary title]
+                                      [:div
+                                       [:i (some->> session-type
+                                                    name
+                                                    (format "(%s session)"))]
+                                       (->> speakers
+                                            sort
+                                            (utils/people-hiccup
+                                             {:include-bio false
+                                              :depth 0
+                                              :link true
+                                              :image-height 100})
+                                            kind/hiccup)
+                                       [:br]
+                                       (kind/md abstract)]]]
+                                    title)]))))
+                           (tc/select-columns [:time :title])
+                           tc/rows
+                           (kind/table {:style {:table-layout :auto}}))]))
+                   kind/fragment)
+              (kind/md ":::")]))))))
 
