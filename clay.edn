@@ -1,4 +1,4 @@
-{:remote-repo {:git-url "https://github.com/scicloj/clay"
+{:remote-repo {:git-url "https://github.com/scicloj/scinoj-light-1"
                :branch  "main"}
  :quarto      {:format            {:html {:theme [:cosmo]}}
                :include-in-header {:text             "<meta property=\"og:image\" content=\"notebooks/images/Noj.png\"/>
