@@ -47,15 +47,13 @@
                                 (kind/hiccup
                                  [:div
                                   (if abstract
-                                    [:div {:style {:border-radius "10px"
-                                                   :background-color
-                                                   (case session-type
-                                                     :special "#ffeeff"
-                                                     :background "#ffffee"
-                                                     :data-analysis "#eeffff"
-                                                     "#ffffff")}} 
-                                     [:details {:style {:margin "20px"
-                                                        }}
+                                    [:div.rounded {:style {:background-color
+                                                           (case session-type
+                                                             :special "#ffeeff"
+                                                             :background "#ffffee"
+                                                             :data-analysis "#eeffff"
+                                                             "#ffffff")}} 
+                                     [:details {:style {:margin "20px"}}
                                       [:summary title]
                                       [:div
                                        [:i (some->> session-type
