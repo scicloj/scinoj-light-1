@@ -92,5 +92,4 @@
   (render-website!)
   (show!))
 
-(comment
-  (render-and-show-website!))
+(render-and-show-website!)
