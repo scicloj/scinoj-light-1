@@ -8,7 +8,7 @@
 
 ;; It is a first in a series of conferences that will explore new fields and use case for Clojure, and specifically the [Noj](https://scicloj.github.io/noj/) data science toolkit.
 
-;; <a class="btn btn-secondary px-4 mb-2" href="https://scicloj.github.io/docs/community/contact/" role="button">Any questions? Let us talk</a>
+;; <a class="btn btn-info btn-lg px-4 mb-2" href="https://scicloj.github.io/docs/community/contact/" role="button">Any questions? Let us talk</a>
 
 ;; # Timeline
 ;; * May 10 - [Prep workshop](https://scicloj.github.io/blog/data-analyis-with-clojure-free-workshop-may-10th-initial-survey/)
@@ -20,6 +20,6 @@
 ;; # Participating
 ;; Participating is online and free, but we may have to limit the number of participants.
 
-;; <a class="btn btn-secondary px-4 mb-2" href="https://forms.gle/AswsDYaYTFckNJ2j7" role="button">Please register till May 12th</a>
+;; <a class="btn btn-success btn-lg px-4 mb-2" href="https://forms.gle/AswsDYaYTFckNJ2j7" role="button">Please register till May 12th</a>
 
 
