@@ -5,6 +5,7 @@
 <meta property=\"og:title\" content=\"SciNoj Light 1\"/>
 <meta property=\"og:description\" content=\"A lightweight Clojure conference of data analysis stories\"/>
 "}
-               :number-depth 0}
+               :number-depth 0
+               :toc-expand 4}
  :base-target-path "temp"}
 
