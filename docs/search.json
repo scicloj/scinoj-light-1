@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Timeline",
     "section": "",
-    "text": "SciNoj Light is an online conference where Clojurians will share their short-term data analysis stories.\nIt is a first in a series of conferences that will explore new fields and use case for Clojure, and specifically the Noj data science toolkit.\n\nTimeline\n\nMay 10 - Prep workshop\nMay 16-17 - Conference: Event, Tentative schedule\n\n\n\nParticipating\nParticipating is online and free, but we may have to limit the number of participants.\nPlease register till May 12th\n\n\nChat\nAll communication in preparation and during the conference will take place at the Clojurians Zulip chat, specifically in the #scinoj-light-1 channel.\nAny questions? Let us talk\n\nsource: notebooks/index.clj"
+    "text": "SciNoj Light is an online conference where Clojurians will share their short-term data analysis stories.\nIt is a first in a series of conferences that will explore new fields and use case for Clojure, and specifically the Noj data science toolkit.\n\nTimeline\n\nMay 10 - ✏ Prep workshop\nMay 16-17 - Conference: 📅 Event, 🛠 Tentative schedule\n\n\n\nParticipating\nParticipating is online and free, but we may have to limit the number of participants.\nPlease register till May 12th\n\n\nChat\nAll communication in preparation and during the conference will take place at the Clojurians Zulip chat, specifically in the #scinoj-light-1 channel.\nAny questions? Let us talk\n\nsource: notebooks/index.clj"
   },
   {
     "objectID": "speakers.html",

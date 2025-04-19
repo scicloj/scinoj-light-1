@@ -9,8 +9,8 @@
 ;; It is a first in a series of conferences that will explore new fields and use case for Clojure, and specifically the [Noj](https://scicloj.github.io/noj/) data science toolkit.
 
 ;; # Timeline
-;; * May 10 - [Prep workshop](https://scicloj.github.io/blog/data-analyis-with-clojure-free-workshop-may-10th-initial-survey/)
-;; * May 16-17 - Conference: [Event](https://clojureverse.org/t/scinoj-light-1st-conference/), [Tentative schedule](./schedule.html)
+;; * May 10 - ✏ [Prep workshop](https://scicloj.github.io/blog/data-analyis-with-clojure-free-workshop-may-10th-initial-survey/)
+;; * May 16-17 - Conference: 📅 [Event](https://clojureverse.org/t/scinoj-light-1st-conference/), 🛠 [Tentative schedule](./schedule.html)
 
 ;; # Participating
 ;; Participating is online and free, but we may have to limit the number of participants.
