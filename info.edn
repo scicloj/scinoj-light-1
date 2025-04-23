@@ -8,8 +8,7 @@
            :images ["Aditya.jpg"]
            :bio
            "Hi! Computationally, I identify as a Clojure-brained, mostly-functional, org-mode enjoying, grug-brained, generalist programmer. These days, I blog + think + work at evalapply.org. I've been Clojing since 2013, at work and/or as a hobbyist, and have lurked in the public Clojureverse for about the same time. I love teaching the language and ideas therein, and have had the chance to do so at various conferences (IN/Clojure, FunctionalConf, LambdaWorld), local meetups, and in-house for staff training. And I try to share / give back in the spirit of a self-directive called \"Learn Generously\". So, I am happy to make myself useful, here at SciCloj Light! May The Source be with us.\n "},
-          :alejandro
-          {:full-name "Alejandro"}
+          
           :cvetomir-m-dimov
           {:full-name "Cvetomir M Dimov",
            :images ["Cvetomir.jpeg"]
@@ -40,11 +39,6 @@
           {:full-name "Jelena Losic",
            :bio
            "My name is Jelena, and I am a PhD student at the Faculty of Mathematics, University of Belgrade, specializing in Complex Networks. Over the past 10 years, I have worked as a functional programmer, primarily using Scala, with some experience in Clojure as well. My research interests lie in exploring the intersections of mathematics and scientific disciplines, uncovering the boundaries where these fields converge and interact.\n "},
-          :juan-monetta
-          {:full-name "Juan Monetta",
-           :images ["Juan.png"]
-           :bio
-           "Juan is a seasoned software developer from Uruguay, with professional experience dating back to the late 1990s.\n Since 2011, he has specialized in Clojure, working on a wide range of domains.\n Lately he has been focusing on development tools aiming to make programming more enjoyable and insightful.\n Have created and currently maintain FlowStorm, as well as several other tools like Clofidence, Clindex, and Clograms - all aimed at improving code exploration, testing, and visualization.\n Juan is also active in the Clojure community, sharing his work through open source projects, technical talks, and contributions.\n His passion lies in making software development more interactive, visual, and fun.\n "},
           :julius-kibunjia
           {:full-name "Julius Kibunjia",
            :bio
@@ -173,13 +167,6 @@
 
 The session also invites a broader conversation about the ethical implications of brain-computer interfaces, and how developers can meaningfully contribute to this rapidly evolving field. This talk is for anyone curious about brain data, functional programming, or building new tools at the edge of human-computer interaction."}
 
-            "FlowStorm: understanding code by visualizations of execution recordings"
-            {:session-type :data-analysis
-             :speakers #{:alejandro :juan-monetta}
-             :abstract "TBA
-
- Note: Juan will join at the Q&A part."}
-
             "Parliamentary Questions and Answers: Using noj to explore basic RAG techniques"
             {:session-type :data-analysis
              :speakers #{:eoin-carney}
@@ -221,7 +208,7 @@ The session also invites a broader conversation about the ethical implications o
                     {:day :Sat :time "13:00-13:20" :title "Open chat (hosted)"}
                     {:day :Sat :time "13:30-14:50" :title "Building a Data Science Ecosystem in Clojure: Lessons from the Tidyverse"}
                     {:day :Sat :time "15:00-16:50" :title "macroexpand-1"}
-                    {:day :Sat :time "17:00-17:50" :title "FlowStorm: understanding code by visualizations of execution recordings"}
+                    {:day :Sat :time "17:00-17:50" :title "TBD"}
                     {:day :Sat :time "18:00-18:50" :title "Analyzing Nairobi Bus Routes with Graph Algorithms and Agent-based Simulation"}
                     {:day :Sat :time "19:00-19:50" :title "The Impact of Lane Reductions: A Data-Driven Look at Oakland Streets"}
                     {:day :Sat :time "20:00-20:20" :title "Conclusion"}
