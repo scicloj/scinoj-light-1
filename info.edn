@@ -188,7 +188,7 @@ The session also invites a broader conversation about the ethical implications o
             {:session-type :data-analysis
              :speakers [:naimish-mani-b :k-ram-narayan]
              :abstract "Tropical Cyclone's happen every year and claim hundreds of lives and billions in damages. Accurate cyclone track forecasting is crucial for disaster preparedness and mitigation. Timely predictions help authorities issue early warnings, evacuate affected areas, and minimize economic and human losses. This project focuses on forecasting cyclone tracks using historical data from the India Meteorological Department (IMD) and Wind Velocity Vectors calculated using EUMETSAT's METEOSAT-7 data."}}
- :schedule-drafts {"Draft #2"
+ :schedule-drafts {"Draft #3"
                    [{:day :Fri :time "9:00-9:25" :title "Hello"}
                     {:day :Fri :time "9:30-10:20" :title "An intro to the Noj toolkit"}
                     {:day :Fri :time "10:30-11:50" :title "An intro to probability and statistics"}
