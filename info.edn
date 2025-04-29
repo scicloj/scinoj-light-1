@@ -208,8 +208,7 @@ The session also invites a broader conversation about the ethical implications o
                     {:day :Sat :time "13:00-13:20" :title "Open chat (hosted)"}
                     {:day :Sat :time "13:30-14:50" :title "Building a Data Science Ecosystem in Clojure: Lessons from the Tidyverse"}
                     {:day :Sat :time "15:00-16:50" :title "macroexpand-1"}
-                    {:day :Sat :time "17:00-17:50" :title "TBD"}
+                    {:day :Sat :time "17:00-17:50" :title "The Impact of Lane Reductions: A Data-Driven Look at Oakland Streets"}
                     {:day :Sat :time "18:00-18:50" :title "Analyzing Nairobi Bus Routes with Graph Algorithms and Agent-based Simulation"}
-                    {:day :Sat :time "19:00-19:50" :title "The Impact of Lane Reductions: A Data-Driven Look at Oakland Streets"}
-                    {:day :Sat :time "20:00-20:20" :title "Conclusion"}
-                    {:day :Sat :time "20:30-21:00" :title "Open chat (hosted)"}]}}
+                    {:day :Sat :time "19:00-19:20" :title "Conclusion"}
+                    {:day :Sat :time "19:30-20:30" :title "Open chat (hosted)"}]}}
