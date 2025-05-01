@@ -9,6 +9,10 @@
            :bio
            "Hi! Computationally, I identify as a Clojure-brained, mostly-functional, org-mode enjoying, grug-brained, generalist programmer. These days, I blog + think + work at evalapply.org. I've been Clojing since 2013, at work and/or as a hobbyist, and have lurked in the public Clojureverse for about the same time. I love teaching the language and ideas therein, and have had the chance to do so at various conferences (IN/Clojure, FunctionalConf, LambdaWorld), local meetups, and in-house for staff training. And I try to share / give back in the spirit of a self-directive called \"Learn Generously\". So, I am happy to make myself useful, here at SciCloj Light! May The Source be with us.\n "},
           
+          :anton-lobach
+          {:full-name "Anton Lobach"
+           :images ["Anton.jpeg"]
+           :bio "My background is in statistics and physics and I have about a decade of academic and industrial experience in the field of data science and machine learning."}
           :cvetomir-m-dimov
           {:full-name "Cvetomir M Dimov",
            :images ["Cvetomir.jpeg"]
