@@ -96,7 +96,7 @@
             :heather-moore-farley
             :k-ram-narayan
             :daniel-slutsky
-            :alejandro]
+            :anton-lobach]
  :hosts [:aditya-athalye
          :kiran-kulkarni
          :lorelai-lyons
@@ -191,8 +191,12 @@ The session also invites a broader conversation about the ethical implications o
             "Tropical cyclone trajectory modelling"
             {:session-type :data-analysis
              :speakers [:naimish-mani-b :k-ram-narayan]
-             :abstract "Tropical Cyclone's happen every year and claim hundreds of lives and billions in damages. Accurate cyclone track forecasting is crucial for disaster preparedness and mitigation. Timely predictions help authorities issue early warnings, evacuate affected areas, and minimize economic and human losses. This project focuses on forecasting cyclone tracks using historical data from the India Meteorological Department (IMD) and Wind Velocity Vectors calculated using EUMETSAT's METEOSAT-7 data."}}
- :schedule-drafts {"Draft #3"
+             :abstract "Tropical Cyclone's happen every year and claim hundreds of lives and billions in damages. Accurate cyclone track forecasting is crucial for disaster preparedness and mitigation. Timely predictions help authorities issue early warnings, evacuate affected areas, and minimize economic and human losses. This project focuses on forecasting cyclone tracks using historical data from the India Meteorological Department (IMD) and Wind Velocity Vectors calculated using EUMETSAT's METEOSAT-7 data."}
+            "UK Electricity Demand Forecasting"
+            {:session-type :data-analysis
+             :speakers [:anton-lobach]
+             :abstract "In this talk I’ll present electricity demand forecasting using Clojure."}}
+ :schedule-drafts {"Draft #4"
                    [{:day :Fri :time "9:00-9:25" :title "Hello"}
                     {:day :Fri :time "9:30-10:20" :title "An intro to the Noj toolkit"}
                     {:day :Fri :time "10:30-11:50" :title "An intro to probability and statistics"}
@@ -207,7 +211,7 @@ The session also invites a broader conversation about the ethical implications o
                     {:day :Sat :time "8:00-8:25" :title "Hello"}
                     {:day :Sat :time "8:30-8:50" :title "Open chat (hosted)"}
                     {:day :Sat :time "9:00-9:50" :title "1D Viscous Fluid Flow Data Analysis Using Burgers’ Equation"}
-                    {:day :Sat :time "10:00-10:50" :title "TBD"}
+                    {:day :Sat :time "10:00-10:50" :title "UK Electricity Demand Forecasting"}
                     {:day :Sat :time "11:00-11:50" :title "Tropical cyclone trajectory modelling"}
                     {:day :Sat :time "12:00-12:50" :title "Studying planning with a novel video game"}
                     {:day :Sat :time "13:00-13:20" :title "Open chat (hosted)"}
