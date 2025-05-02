@@ -36,7 +36,8 @@
            "hosts.qmd"]}
    {:text "Content"
     :menu ["sessions.qmd"
-           "schedule.qmd"]}])
+           "schedule.qmd"
+           "notebooks/workshop.qmd"]}])
 
 
 (def quarto-config
@@ -47,7 +48,8 @@
                        :left navbar-contents
                        :tools [{:icon :person-video2
                                 :menu ["sessions.qmd"
-                                       "schedule.qmd"]}
+                                       "schedule.qmd"
+                                       "notebooks/workshop.qmd"]}
                                {:icon :people
                                 :menu ["speakers.qmd"
                                        "hosts.qmd"]}
