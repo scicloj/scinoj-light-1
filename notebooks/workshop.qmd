@@ -10,8 +10,8 @@ See the [initial blog post]((https://scicloj.github.io/blog/data-analyis-with-cl
 
 To account for diverse time zones, we will have two runs of the workshop:
 
-- Group A - [May 10th 9:00-13:00 UTC](https://time.is/09:00_10_MAY_2025_in_UTC) - [event](https://clojureverse.org/t/scinoj-light-1-prep-workshop-data-analysis-in-clojure-group-a/)
-- Group B - [May 10th 15:00-19:00 UTC](https://time.is/15:00_10_MAY_2025_in_UTC) - [event](https://clojureverse.org/t/scinoj-light-1-prep-workshop-data-analysis-in-clojure-group-b/11370)
+- Group A - [May 10th 9:00-13:00 UTC](https://time.is/09:00_10_MAY_2025_in_UTC) - 📅 [event](https://clojureverse.org/t/scinoj-light-1-prep-workshop-data-analysis-in-clojure-group-a/)
+- Group B - [May 10th 15:00-19:00 UTC](https://time.is/15:00_10_MAY_2025_in_UTC) - 📅 [event](https://clojureverse.org/t/scinoj-light-1-prep-workshop-data-analysis-in-clojure-group-b/11370)
 
 (Note we use the [UTC](https://time.is/UTC) time zone here.)
 
@@ -19,7 +19,7 @@ To account for diverse time zones, we will have two runs of the workshop:
 
 To join, please do the following before the workshop:
 
-<a class="btn btn-success px-4 mb-2 rounded" href="https://forms.gle/HYjqi5V26Aiv7cu67" role="button">Please register till May 7th</a>
+<a class="btn btn-success btn-lg px-4 mb-2 rounded" href="https://forms.gle/HYjqi5V26Aiv7cu67" role="button">Please register till May 8th</a>
 
 * Read this page carefully and make sure it is all clear.
 * Sign up to the [Clojurians Zulip chat](https://scicloj.github.io/docs/community/chat/), and introduce yourself at the [#**scinoj-light-1 > hello**](https://clojurians.zulipchat.com/#narrow/channel/479601-scinoj-light-1/topic/hello/) topic thread.
