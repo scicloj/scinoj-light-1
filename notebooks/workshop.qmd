@@ -1,0 +1,42 @@
+# Workshop
+
+On May 10th, 2025, we will run an online intro workshop about Clojure for data analysis.
+
+It is intended to get people started with Clojure for data analysis and be more comfortable attending the SciNoj Light #1 conference talks.
+
+See the [initial blog post]((https://scicloj.github.io/blog/data-analyis-with-clojure-free-workshop-may-10th-initial-survey/)) for additional background.
+
+## Groups
+
+To account for diverse time zones, we will have two runs of the workshop:
+
+- Group A - [May 10th 9:00-13:00 UTC](https://time.is/09:00_10_MAY_2025_in_UTC) - 📅 [event](https://clojureverse.org/t/scinoj-light-1-prep-workshop-data-analysis-in-clojure-group-a/)
+- Group B - [May 10th 15:00-19:00 UTC](https://time.is/15:00_10_MAY_2025_in_UTC) - 📅 [event](https://clojureverse.org/t/scinoj-light-1-prep-workshop-data-analysis-in-clojure-group-b/11370)
+
+(Note we use the [UTC](https://time.is/UTC) time zone here.)
+
+## Participating
+
+To join, please do the following before the workshop:
+
+<a class="btn btn-success btn-lg px-4 mb-2 rounded" href="https://forms.gle/HYjqi5V26Aiv7cu67" role="button">Please register till May 8th</a>
+
+* Read this page carefully and make sure it is all clear.
+* Sign up to the [Clojurians Zulip chat](https://scicloj.github.io/docs/community/chat/), and introduce yourself at the [#**scinoj-light-1 > hello**](https://clojurians.zulipchat.com/#narrow/channel/479601-scinoj-light-1/topic/hello/) topic thread.
+* Make sure you have the following installed in your system: [Git](https://git-scm.com/), [Clojure](https://clojure.org/guides/install_clojure), and [VSCode](https://code.visualstudio.com/) (or [VSCodium](https://vscodium.com/)).
+  * If you are familiar with the setup of another editor for Clojure, then please make sure you have [Clay](https://scicloj.github.io/clay/) working in your setup.
+* Follow the 🎥 [intro video](https://www.youtube.com/watch?v=B1yPkpyiEEs) and make sure it works in your system. The project used in that video is 🔗 [noj-v2-getting-started](https://github.com/scicloj/noj-v2-getting-started).
+
+## Plan
+
+- We will assume some background in programming (say, at least 2 years with any programming language). If you are unsure, please reach out.
+- We will not assume any background in Clojure or in data analysis.
+- We will start from scratch, including an introduction to Clojure.
+- We will introduce the [Noj](https://scicloj.github.io/noj/) toolkit and use it in analysing real-world data.
+- We will introduce essential notions of probability and statistics.
+- The content will be inspired by (but different from) Kira Howe's great [workshop](https://bobkonf.de/2025/howe.html) at the [BobKonf 2025](https://bobkonf.de/2025/en/) conference.
+
+## Questions
+
+If you have any questions, please do not hesitate asking at the [#**scinoj-light-1 > questions**](https://clojurians.zulipchat.com/#narrow/channel/479601-scinoj-light-1/topic/questions/) topic thread.
+

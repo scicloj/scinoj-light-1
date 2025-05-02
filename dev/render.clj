@@ -20,6 +20,11 @@
                :show false
                :base-target-path "website"}))
 
+(defn copy-source-qmd! []
+  (fs/copy "notebooks/workshop.qmd"
+           "website/workshop.qmd"
+           {:replace-existing true}))
+
 (def repo-menu
   [{:text "Source"
     :href "https://github.com/scicloj/scinoj-light-1/"}
@@ -36,7 +41,8 @@
            "hosts.qmd"]}
    {:text "Content"
     :menu ["sessions.qmd"
-           "schedule.qmd"]}])
+           "schedule.qmd"
+           "workshop.qmd"]}])
 
 
 (def quarto-config
@@ -47,7 +53,8 @@
                        :left navbar-contents
                        :tools [{:icon :person-video2
                                 :menu ["sessions.qmd"
-                                       "schedule.qmd"]}
+                                       "schedule.qmd"
+                                       "workshop.qmd"]}
                                {:icon :people
                                 :menu ["speakers.qmd"
                                        "hosts.qmd"]}
@@ -83,6 +90,7 @@
 
 (defn render-website! []
   (make-website-pages!)
+  (copy-source-qmd!)
   (write-quarto-config!)
   (quarto-render!)
   (move-to-docs!))
