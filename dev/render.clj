@@ -22,7 +22,8 @@
 
 (defn copy-source-qmd! []
   (fs/copy "notebooks/workshop.qmd"
-           "website/workshop.qmd"))
+           "website/workshop.qmd"
+           {:replace-existing true}))
 
 (def repo-menu
   [{:text "Source"
