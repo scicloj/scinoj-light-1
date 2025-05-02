@@ -27,8 +27,6 @@ To join, please do the following before the workshop:
   * If you are familiar with the setup of another editor for Clojure, then please make sure you have [Clay](https://scicloj.github.io/clay/) working in your setup.
 * Follow the [intro video](https://www.youtube.com/watch?v=B1yPkpyiEEs) and make sure it works in your system. The project used in that video is [noj-v2-getting-started](https://github.com/scicloj/noj-v2-getting-started).
 
-If you have any questions, please don't hesitate asking at the [#**scinoj-light-1 > questions**](https://clojurians.zulipchat.com/#narrow/channel/479601-scinoj-light-1/topic/questions/) topic thread.
-
 ## Plan
 
 - We will assume some background in programming (say, at least 2 years with any programming language). If you are unsure, please reach out.
