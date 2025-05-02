@@ -4,6 +4,8 @@ On May 10th, 2025, we will run an online intro workshop about Clojure for data a
 
 It is intended to get people started with Clojure for data analysis and be more comfortable attending the SciNoj Light #1 conference talks.
 
+See the [initial blog post]((https://scicloj.github.io/blog/data-analyis-with-clojure-free-workshop-may-10th-initial-survey/)) for additional background.
+
 ## Groups
 
 To account for diverse time zones, we will have two runs of the workshop:
@@ -17,8 +19,8 @@ To account for diverse time zones, we will have two runs of the workshop:
 
 To join, please do the following before the workshop:
 
-* Register to the workshop.
-<a class="btn btn-success btn-lg px-4 mb-2 rounded" href="https://forms.gle/HYjqi5V26Aiv7cu67" role="button">Please register till May 7th</a>
+<a class="btn btn-success px-4 mb-2 rounded" href="https://forms.gle/HYjqi5V26Aiv7cu67" role="button">Please register till May 7th</a>
+
 * Read this page carefully and make sure it is all clear.
 * Sign up to the [Clojurians Zulip chat](https://scicloj.github.io/docs/community/chat/), and introduce yourself at the [#**scinoj-light-1 > hello**](https://clojurians.zulipchat.com/#narrow/channel/479601-scinoj-light-1/topic/hello/) topic thread.
 * Make sure you have the following installed in your system: [Git](https://git-scm.com/), [Clojure](https://clojure.org/guides/install_clojure), and [VSCode](https://code.visualstudio.com/) (or [VSCodium](https://vscodium.com/)).
