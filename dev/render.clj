@@ -63,7 +63,10 @@
     :format {:html {:theme "cosmo"
                     :linkcolor "#440044"
                     ;; :css "styles.css"
-                    :toc true}}}))
+                    :toc true}}
+    :include-in-header {:text "<meta property=\"og:image\" content=\"notebooks/images/Noj.png\"/>
+<meta property=\"og:title\" content=\"SciNoj Light 1\"/>
+<meta property=\"og:description\" content=\"A lightweight Clojure conference of data analysis stories\"/>"}}))
 
 (defn write-quarto-config! []
   (spit "website/_quarto.yml"
