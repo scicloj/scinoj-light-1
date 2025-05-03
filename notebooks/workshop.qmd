@@ -25,6 +25,7 @@ To join, please do the following before the workshop:
 * Sign up to the [Clojurians Zulip chat](https://scicloj.github.io/docs/community/chat/), and introduce yourself at the [#**scinoj-light-1 > hello**](https://clojurians.zulipchat.com/#narrow/channel/479601-scinoj-light-1/topic/hello/) topic thread.
 * Make sure you have the following installed in your system: [Git](https://git-scm.com/), [Clojure](https://clojure.org/guides/install_clojure), and [VSCode](https://code.visualstudio.com/) (or [VSCodium](https://vscodium.com/)).
   * If you are familiar with the setup of another editor for Clojure, then please make sure you have [Clay](https://scicloj.github.io/clay/) working in your setup. You can write to, and we may be able to help.
+* We recommend also installing [Quarto](https://quarto.org/).
 * Follow the 🎥 [intro video](https://www.youtube.com/watch?v=B1yPkpyiEEs) and make sure it works in your system. The project used in that video is 🔗 [noj-v2-getting-started](https://github.com/scicloj/noj-v2-getting-started).
 
 ## Plan
