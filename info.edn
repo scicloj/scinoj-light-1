@@ -81,7 +81,12 @@
           {:full-name "Siyoung Byun",
            :images ["Siyoung.jpg"]
            :bio
-           "Siyoung Byun is currently a freelance fullstack Clojure developer living in Seoul, South Korea. She studied Astrophysics for her undergrad in Canada,  where she first got into programming and data analysis while running simulations of dying stars crashing into each other. Ever since she was introduced to Clojure at a previous employer in 2018, it quickly became her favorite programming language and her passion. \n Beyond software development and data analysis, she likes to hike, bike, knit, sew and snuggle with her cat in her free time.\n "}}
+           "Siyoung Byun is currently a freelance fullstack Clojure developer living in Seoul, South Korea. She studied Astrophysics for her undergrad in Canada,  where she first got into programming and data analysis while running simulations of dying stars crashing into each other. Ever since she was introduced to Clojure at a previous employer in 2018, it quickly became her favorite programming language and her passion. \n Beyond software development and data analysis, she likes to hike, bike, knit, sew and snuggle with her cat in her free time.\n "}
+          :siavash-mohammady
+          {:full-name "siavash mohammady"
+           :images ["siavash.png"]
+           :bio
+           "Software developer with 8 years of Clojure experience"}}
  :speakers [:siyoung-byun
             :eoin-carney
             :cvetomir-m-dimov
@@ -93,7 +98,7 @@
             :jelena-losic
             :lorelai-lyons
             :naimish-mani-b
-            :juan-monetta
+            :siavash-mohammady
             :heather-moore-farley
             :k-ram-narayan
             :daniel-slutsky]
@@ -195,11 +200,16 @@ The session also invites a broader conversation about the ethical implications o
             "UK Electricity Demand Forecasting"
             {:session-type :data-analysis
              :speakers [:anton-lobach]
-             :abstract "In this talk I’ll present electricity demand forecasting using Clojure."}}
- :schedule-drafts {"Draft #4"
-                   [{:day :Fri :time "9:00-9:25" :title "Hello"}
-                    {:day :Fri :time "9:30-10:20" :title "An intro to the Noj toolkit"}
-                    {:day :Fri :time "10:30-11:50" :title "An intro to probability and statistics"}
+             :abstract "In this talk I’ll present electricity demand forecasting using Clojure."}
+            "Customer churn analysis"
+            {:session-type :data-analysis
+             :speakers [:siavash-mohammady]
+             :abstract "Automatic customer churn data analysis by combination of LLM, logic programming & Noj"}}
+ :schedule-drafts {"Draft #5"
+                   [{:day :Fri :time "8:00-8:25" :title "Hello"}
+                    {:day :Fri :time "8:30-9:20" :title "An intro to the Noj toolkit"}
+                    {:day :Fri :time "9:30-10:50" :title "An intro to probability and statistics"}
+                    {:day :Fri :time "11:00-11:50" :title "Customer churn analysis"}
                     {:day :Fri :time "12:00-13:20" :title "Linear Foundations and Nonlinear Frontiers: A Journey Through Mathematical Methods"}
                     {:day :Fri :time "13:30-14:50" :title "RAGgedy Ann's Big Adventure"}
                     {:day :Fri :time "15:00-15:50" :title "Parliamentary Questions and Answers: Using noj to explore basic RAG techniques"}
