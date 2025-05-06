@@ -1,4 +1,4 @@
-# [SciNoj Light #1 website](https://scicloj.github.io/scinoj-light-1/)
+# [Website of the SciNoj Light #1 conference](https://scicloj.github.io/scinoj-light-1/)
 
 ## Contributing
 
