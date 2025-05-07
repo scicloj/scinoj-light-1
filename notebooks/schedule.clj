@@ -1,6 +1,8 @@
-;; # Tentative Schedule
+;; # Schedule
 
-;; The content of this page is temporary and is used in the planning stage.
+;; Here is the schedule for the two conference days.
+;; As this is a global conference, the Schedule is built as a compromise across different time zones.
+;; Hopefully, everybody will be able to attend at least some parts they care about.
 
 ;; - All times are in [UTC](https://time.is/UTC) time zone.
 ;; - All talk durations include the discussion/Q&A part.
@@ -25,7 +27,7 @@
                                    tc/dataset
                                    (tc/group-by :day {:result-type
                                                       :as-map}))]
-             [(kind/md (format "(%s)\n" draft-name))
+             [#_(kind/md (format "(%s)\n" draft-name))
               (kind/md "::: {.panel-tabset}")
               (->> [:Fri :Sat]
                    (mapcat
