@@ -11,7 +11,7 @@
     "href": "index.html#timeline",
     "title": "SciNoj Light #1",
     "section": "Timeline",
-    "text": "Timeline\n\nMay 10 - ✏ Preparation workshop ⭐new page⭐\nMay 16-17 - Conference: 📅 Event, 🛠 Tentative schedule"
+    "text": "Timeline\n\nMay 10 - ✏ Preparation workshop: data analysis in Clojure\nMay 16-17 - Conference: 📅 Event, 🛠 Tentative schedule"
   },
   {
     "objectID": "index.html#participating",
@@ -109,28 +109,35 @@
     "href": "workshop.html",
     "title": "Workshop",
     "section": "",
-    "text": "On May 10th, 2025, we will run an online intro workshop about Clojure for data analysis.\nIt is intended to get people started with Clojure for data analysis and be more comfortable attending the SciNoj Light #1 conference talks.\nSee the initial blog post for additional background.\n\n\nTo account for diverse time zones, we will have two runs of the workshop:\n\nGroup A - May 10th 9:00-13:00 UTC - 📅 event\nGroup B - May 10th 15:00-19:00 UTC - 📅 event\n\n(Note we use the UTC time zone here.)\n\n\n\nTo join, please do the following before the workshop:\nPlease register till May 8th\n\nRead this page carefully and make sure it is all clear.\nSign up to the Clojurians Zulip chat, and introduce yourself at the #scinoj-light-1 &gt; hello topic thread.\nMake sure you have the following installed in your system: Git, Clojure, and VSCode (or VSCodium).\n\nIf you are familiar with the setup of another editor for Clojure, then please make sure you have Clay working in your setup. You can write to, and we may be able to help.\n\nWe recommend also installing Quarto.\nFollow the 🎥 intro video and make sure it works in your system. The project used in that video is 🔗 noj-v2-getting-started.\n\n\n\n\n\nWe will assume some background in programming (say, at least 2 years with any programming language). If you are unsure, please reach out.\nWe will not assume any background in Clojure or in data analysis.\nWe will start from scratch, including an introduction to Clojure.\nWe will introduce the Noj toolkit and use it in analysing real-world data.\nWe will introduce essential notions of probability and statistics.\nThe content will be inspired by (but different from) Kira Howe’s great workshop at the BobKonf 2025 conference.\n\n\n\n\nIf you have any questions, please do not hesitate asking at the #scinoj-light-1 &gt; questions topic thread."
+    "text": "On May 10th, 2025, we ran an online intro workshop about Clojure for data analysis.\nThe goal was to get people started with Clojure for data analysis and be more comfortable attending the SciNoj Light #1 conference talks.\nSee the initial blog post for additional background.\n\n\nTo account for diverse time zones, we had two runs of the workshop:\n\nGroup A - May 10th 9:00-13:00 UTC - 📅 event\nGroup B - May 10th 15:00-19:00 UTC - 📅 event\n\n\n\n\nThe recordings were shared (as unlisted videos) internally at the Clojurians Zulip chat under the #scinoj-light-1&gt;recordings topic thread.\n\n\n\nWe recommended the following background to workshop participants:\n\nRead this page carefully and make sure it is all clear.\nSign up to the Clojurians Zulip chat, and introduce yourself at the #scinoj-light-1 &gt; hello topic thread.\nMake sure you have the following installed in your system: Git, Clojure, and VSCode (or VSCodium).\n\nIf you are familiar with the setup of another editor for Clojure, then please make sure you have Clay working in your setup. You can write to, and we may be able to help.\n\nWe recommend also installing Quarto.\nFollow the 🎥 intro video and make sure it works in your system. The project used in that video is 🔗 noj-v2-getting-started.\n\n\n\n\n\nWe assumed some background in programming (say, at least 2 years with any programming language). If you are unsure, please reach out.\nWe did not assume any background in Clojure or in data analysis.\nWe started from scratch, including a brief introduction to Clojure.\nWe introduced the Noj toolkit and use it in analysing real-world data.\nWe introduced essential notions of probability and statistics.\n\n\n\n\nIf you have any questions, please do not hesitate asking at the #scinoj-light-1 &gt; questions topic thread."
   },
   {
     "objectID": "workshop.html#groups",
     "href": "workshop.html#groups",
     "title": "Workshop",
     "section": "",
-    "text": "To account for diverse time zones, we will have two runs of the workshop:\n\nGroup A - May 10th 9:00-13:00 UTC - 📅 event\nGroup B - May 10th 15:00-19:00 UTC - 📅 event\n\n(Note we use the UTC time zone here.)"
+    "text": "To account for diverse time zones, we had two runs of the workshop:\n\nGroup A - May 10th 9:00-13:00 UTC - 📅 event\nGroup B - May 10th 15:00-19:00 UTC - 📅 event"
   },
   {
-    "objectID": "workshop.html#participating",
-    "href": "workshop.html#participating",
+    "objectID": "workshop.html#recordings",
+    "href": "workshop.html#recordings",
     "title": "Workshop",
     "section": "",
-    "text": "To join, please do the following before the workshop:\nPlease register till May 8th\n\nRead this page carefully and make sure it is all clear.\nSign up to the Clojurians Zulip chat, and introduce yourself at the #scinoj-light-1 &gt; hello topic thread.\nMake sure you have the following installed in your system: Git, Clojure, and VSCode (or VSCodium).\n\nIf you are familiar with the setup of another editor for Clojure, then please make sure you have Clay working in your setup. You can write to, and we may be able to help.\n\nWe recommend also installing Quarto.\nFollow the 🎥 intro video and make sure it works in your system. The project used in that video is 🔗 noj-v2-getting-started."
+    "text": "The recordings were shared (as unlisted videos) internally at the Clojurians Zulip chat under the #scinoj-light-1&gt;recordings topic thread."
   },
   {
-    "objectID": "workshop.html#plan",
-    "href": "workshop.html#plan",
+    "objectID": "workshop.html#background",
+    "href": "workshop.html#background",
     "title": "Workshop",
     "section": "",
-    "text": "We will assume some background in programming (say, at least 2 years with any programming language). If you are unsure, please reach out.\nWe will not assume any background in Clojure or in data analysis.\nWe will start from scratch, including an introduction to Clojure.\nWe will introduce the Noj toolkit and use it in analysing real-world data.\nWe will introduce essential notions of probability and statistics.\nThe content will be inspired by (but different from) Kira Howe’s great workshop at the BobKonf 2025 conference."
+    "text": "We recommended the following background to workshop participants:\n\nRead this page carefully and make sure it is all clear.\nSign up to the Clojurians Zulip chat, and introduce yourself at the #scinoj-light-1 &gt; hello topic thread.\nMake sure you have the following installed in your system: Git, Clojure, and VSCode (or VSCodium).\n\nIf you are familiar with the setup of another editor for Clojure, then please make sure you have Clay working in your setup. You can write to, and we may be able to help.\n\nWe recommend also installing Quarto.\nFollow the 🎥 intro video and make sure it works in your system. The project used in that video is 🔗 noj-v2-getting-started."
+  },
+  {
+    "objectID": "workshop.html#agenda",
+    "href": "workshop.html#agenda",
+    "title": "Workshop",
+    "section": "",
+    "text": "We assumed some background in programming (say, at least 2 years with any programming language). If you are unsure, please reach out.\nWe did not assume any background in Clojure or in data analysis.\nWe started from scratch, including a brief introduction to Clojure.\nWe introduced the Noj toolkit and use it in analysing real-world data.\nWe introduced essential notions of probability and statistics."
   },
   {
     "objectID": "workshop.html#questions",
@@ -256,28 +263,35 @@
     "href": "notebooks/workshop.html",
     "title": "Workshop",
     "section": "",
-    "text": "On May 10th, 2025, we will run an online intro workshop about Clojure for data analysis.\nIt is intended to get people started with Clojure for data analysis and be more comfortable attending the SciNoj Light #1 conference talks.\nSee the initial blog post for additional background.\n\n\nTo account for diverse time zones, we will have two runs of the workshop:\n\nGroup A - May 10th 9:00-13:00 UTC - 📅 event\nGroup B - May 10th 15:00-19:00 UTC - 📅 event\n\n(Note we use the UTC time zone here.)\n\n\n\nTo join, please do the following before the workshop:\nPlease register till May 8th\n\nRead this page carefully and make sure it is all clear.\nSign up to the Clojurians Zulip chat, and introduce yourself at the #scinoj-light-1 &gt; hello topic thread.\nMake sure you have the following installed in your system: Git, Clojure, and VSCode (or VSCodium).\n\nIf you are familiar with the setup of another editor for Clojure, then please make sure you have Clay working in your setup. You can write to, and we may be able to help.\n\nWe recommend also installing Quarto.\nFollow the 🎥 intro video and make sure it works in your system. The project used in that video is 🔗 noj-v2-getting-started.\n\n\n\n\n\nWe will assume some background in programming (say, at least 2 years with any programming language). If you are unsure, please reach out.\nWe will not assume any background in Clojure or in data analysis.\nWe will start from scratch, including an introduction to Clojure.\nWe will introduce the Noj toolkit and use it in analysing real-world data.\nWe will introduce essential notions of probability and statistics.\nThe content will be inspired by (but different from) Kira Howe’s great workshop at the BobKonf 2025 conference.\n\n\n\n\nIf you have any questions, please do not hesitate asking at the #scinoj-light-1 &gt; questions topic thread."
+    "text": "On May 10th, 2025, we ran an online intro workshop about Clojure for data analysis.\nThe goal was to get people started with Clojure for data analysis and be more comfortable attending the SciNoj Light #1 conference talks.\nSee the initial blog post for additional background.\n\n\nTo account for diverse time zones, we had two runs of the workshop:\n\nGroup A - May 10th 9:00-13:00 UTC - 📅 event\nGroup B - May 10th 15:00-19:00 UTC - 📅 event\n\n\n\n\nThe recordings were shared (as unlisted videos) internally at the Clojurians Zulip chat under the #scinoj-light-1&gt;recordings topic thread.\n\n\n\nWe recommended the following background to workshop participants:\n\nRead this page carefully and make sure it is all clear.\nSign up to the Clojurians Zulip chat, and introduce yourself at the #scinoj-light-1 &gt; hello topic thread.\nMake sure you have the following installed in your system: Git, Clojure, and VSCode (or VSCodium).\n\nIf you are familiar with the setup of another editor for Clojure, then please make sure you have Clay working in your setup. You can write to, and we may be able to help.\n\nWe recommend also installing Quarto.\nFollow the 🎥 intro video and make sure it works in your system. The project used in that video is 🔗 noj-v2-getting-started.\n\n\n\n\n\nWe assumed some background in programming (say, at least 2 years with any programming language). If you are unsure, please reach out.\nWe did not assume any background in Clojure or in data analysis.\nWe started from scratch, including a brief introduction to Clojure.\nWe introduced the Noj toolkit and use it in analysing real-world data.\nWe introduced essential notions of probability and statistics.\n\n\n\n\nIf you have any questions, please do not hesitate asking at the #scinoj-light-1 &gt; questions topic thread."
   },
   {
     "objectID": "notebooks/workshop.html#groups",
     "href": "notebooks/workshop.html#groups",
     "title": "Workshop",
     "section": "",
-    "text": "To account for diverse time zones, we will have two runs of the workshop:\n\nGroup A - May 10th 9:00-13:00 UTC - 📅 event\nGroup B - May 10th 15:00-19:00 UTC - 📅 event\n\n(Note we use the UTC time zone here.)"
+    "text": "To account for diverse time zones, we had two runs of the workshop:\n\nGroup A - May 10th 9:00-13:00 UTC - 📅 event\nGroup B - May 10th 15:00-19:00 UTC - 📅 event"
   },
   {
-    "objectID": "notebooks/workshop.html#participating",
-    "href": "notebooks/workshop.html#participating",
+    "objectID": "notebooks/workshop.html#recordings",
+    "href": "notebooks/workshop.html#recordings",
     "title": "Workshop",
     "section": "",
-    "text": "To join, please do the following before the workshop:\nPlease register till May 8th\n\nRead this page carefully and make sure it is all clear.\nSign up to the Clojurians Zulip chat, and introduce yourself at the #scinoj-light-1 &gt; hello topic thread.\nMake sure you have the following installed in your system: Git, Clojure, and VSCode (or VSCodium).\n\nIf you are familiar with the setup of another editor for Clojure, then please make sure you have Clay working in your setup. You can write to, and we may be able to help.\n\nWe recommend also installing Quarto.\nFollow the 🎥 intro video and make sure it works in your system. The project used in that video is 🔗 noj-v2-getting-started."
+    "text": "The recordings were shared (as unlisted videos) internally at the Clojurians Zulip chat under the #scinoj-light-1&gt;recordings topic thread."
   },
   {
-    "objectID": "notebooks/workshop.html#plan",
-    "href": "notebooks/workshop.html#plan",
+    "objectID": "notebooks/workshop.html#background",
+    "href": "notebooks/workshop.html#background",
     "title": "Workshop",
     "section": "",
-    "text": "We will assume some background in programming (say, at least 2 years with any programming language). If you are unsure, please reach out.\nWe will not assume any background in Clojure or in data analysis.\nWe will start from scratch, including an introduction to Clojure.\nWe will introduce the Noj toolkit and use it in analysing real-world data.\nWe will introduce essential notions of probability and statistics.\nThe content will be inspired by (but different from) Kira Howe’s great workshop at the BobKonf 2025 conference."
+    "text": "We recommended the following background to workshop participants:\n\nRead this page carefully and make sure it is all clear.\nSign up to the Clojurians Zulip chat, and introduce yourself at the #scinoj-light-1 &gt; hello topic thread.\nMake sure you have the following installed in your system: Git, Clojure, and VSCode (or VSCodium).\n\nIf you are familiar with the setup of another editor for Clojure, then please make sure you have Clay working in your setup. You can write to, and we may be able to help.\n\nWe recommend also installing Quarto.\nFollow the 🎥 intro video and make sure it works in your system. The project used in that video is 🔗 noj-v2-getting-started."
+  },
+  {
+    "objectID": "notebooks/workshop.html#agenda",
+    "href": "notebooks/workshop.html#agenda",
+    "title": "Workshop",
+    "section": "",
+    "text": "We assumed some background in programming (say, at least 2 years with any programming language). If you are unsure, please reach out.\nWe did not assume any background in Clojure or in data analysis.\nWe started from scratch, including a brief introduction to Clojure.\nWe introduced the Noj toolkit and use it in analysing real-world data.\nWe introduced essential notions of probability and statistics."
   },
   {
     "objectID": "notebooks/workshop.html#questions",
