@@ -17,7 +17,6 @@
 
 ;; |||
 ;; |-|-|
-;; |**May 10 Workshop**|<a class="btn btn-success px-4 mb-2 rounded" href="https://forms.gle/HYjqi5V26Aiv7cu67" role="button">Please register till May 8th</a>|
 ;; |**May 16-17 Conference**|<a class="btn btn-success px-4 mb-2 rounded" href="https://forms.gle/AswsDYaYTFckNJ2j7" role="button">Please register till May 12th</a>|
 
 ;; ## Chat
