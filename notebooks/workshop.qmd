@@ -1,6 +1,6 @@
 # Workshop
 
-On May 10th, 2025, we will ran an online intro workshop about Clojure for data analysis.
+On May 10th, 2025, we ran an online intro workshop about Clojure for data analysis.
 
 The goal was to get people started with Clojure for data analysis and be more comfortable attending the [SciNoj Light #1](https://scicloj.github.io/scinoj-light-1/) conference talks.
 
