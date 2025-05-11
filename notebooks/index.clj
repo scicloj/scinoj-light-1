@@ -10,7 +10,7 @@
 
 ;; ## Timeline
 ;; * May 10 - ✏ [Preparation workshop](/workshop.html): data analysis in Clojure
-;; * May 16-17 - Conference: 📅 [Event](https://clojureverse.org/t/scinoj-light-1st-conference/), 🛠 [Tentative schedule](./schedule.html)
+;; * May 16-17 - Conference: 📅 [Event](https://clojureverse.org/t/scinoj-light-1st-conference/), 🛠 [Schedule](./schedule.html)
 
 ;; ## Participating
 ;; Participating is online and free, but we may have to limit the number of participants.
