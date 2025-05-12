@@ -9,15 +9,15 @@
 ;; It is a first in a series of conferences that will explore new fields and use case for Clojure, and specifically the [Noj](https://scicloj.github.io/noj/) data science toolkit.
 
 ;; ## Timeline
-;; * May 10 - ✏ [Preparation workshop](/workshop.html): data analysis in Clojure
-;; * May 16-17 - Conference: 📅 [Event](https://clojureverse.org/t/scinoj-light-1st-conference/), 🛠 [Schedule](./schedule.html)
+;; * May 10 - we had a [preparation workshop](/workshop.html): data analysis in Clojure
+;; * May 16-17 - Conference
+;;   * 📅 [Event](https://clojureverse.org/t/scinoj-light-1st-conference/)
+;;   * ⏰ [Schedule](./schedule.html)
 
 ;; ## Participating
 ;; Participating is online and free, but we may have to limit the number of participants.
 
-;; |||
-;; |-|-|
-;; |**May 16-17 Conference**|<a class="btn btn-success px-4 mb-2 rounded" href="https://forms.gle/AswsDYaYTFckNJ2j7" role="button">Please register till May 12th</a>|
+;; <a class="btn btn-success btn-lg px-4 mb-2 rounded" href="https://forms.gle/AswsDYaYTFckNJ2j7" role="button">Please register till May 12th</a>
 
 ;; ## Chat
 ;; All communication in preparation and during the conference will take place at the [Clojurians Zulip chat](https://scicloj.github.io/docs/community/chat/), specifically in the [#**scinoj-light-1**](https://clojurians.zulipchat.com/#narrow/channel/479601-scinoj-light-1) channel.
