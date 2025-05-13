@@ -17,7 +17,7 @@
 ;; ## Participating
 ;; Participating is online and free, but we may have to limit the number of participants.
 
-;; <a class="btn btn-success btn-lg px-4 mb-2 rounded" href="https://forms.gle/AswsDYaYTFckNJ2j7" role="button">Please register till May 12th</a>
+;; <a class="btn btn-success btn-lg px-4 mb-2 rounded" href="https://forms.gle/AswsDYaYTFckNJ2j7" role="button">Please register till May 14th</a>
 
 ;; ## Chat
 ;; All communication in preparation and during the conference will take place at the [Clojurians Zulip chat](https://scicloj.github.io/docs/community/chat/), specifically in the [#**scinoj-light-1**](https://clojurians.zulipchat.com/#narrow/channel/479601-scinoj-light-1) channel.
