@@ -187,10 +187,17 @@ The session also invites a broader conversation about the ethical implications o
             {:session-type :data-analysis
              :speakers [:naimish-mani-b :k-ram-narayan]
              :abstract "Tropical Cyclone's happen every year and claim hundreds of lives and billions in damages. Accurate cyclone track forecasting is crucial for disaster preparedness and mitigation. Timely predictions help authorities issue early warnings, evacuate affected areas, and minimize economic and human losses. This project focuses on forecasting cyclone tracks using historical data from the India Meteorological Department (IMD) and Wind Velocity Vectors calculated using EUMETSAT's METEOSAT-7 data."}
-            "UK Electricity Demand Forecasting"
+            "UK Electricity Demand Time Series Forecasting"
             {:session-type :data-analysis
              :speakers [:anton-lobach]
-             :abstract "In this talk I’ll present electricity demand forecasting using Clojure."}
+             :abstract "Time series forecasting is a critical task across many fields, from finance to weather prediction. This talk provides a high-level overview of how to approach time series forecasting using Clojure and its growing ecosystem of data science tools. I will walk through the key steps involved in building a forecasting model, using the 'taylor' dataset containing electricity demand data from the UK as a practical example, without delving into the code details.
+
+The session will cover:
+
+* Understanding the Data
+* Feature Engineering
+* Machine Learning Modeling
+* Model Selection and Evaluation"}
             "Customer churn analysis"
             {:session-type :data-analysis
              :speakers [:siavash-mohammady]
@@ -211,7 +218,7 @@ The session also invites a broader conversation about the ethical implications o
                     {:day :Sat :time "8:00-8:25" :title "Hello"}
                     {:day :Sat :time "8:30-8:50" :title "Open chat (hosted)"}
                     {:day :Sat :time "9:00-9:50" :title "1D Viscous Fluid Flow Data Analysis Using Burgers’ Equation"}
-                    {:day :Sat :time "10:00-10:50" :title "UK Electricity Demand Forecasting"}
+                    {:day :Sat :time "10:00-10:50" :title "UK Electricity Demand Time Series Forecasting"}
                     {:day :Sat :time "11:00-11:50" :title "Tropical cyclone trajectory modelling"}
                     {:day :Sat :time "12:00-12:50" :title "Studying planning with a novel video game"}
                     {:day :Sat :time "13:00-13:20" :title "Open chat (hosted)"}
