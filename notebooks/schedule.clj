@@ -1,15 +1,8 @@
 ;; # Schedule
 
-;; Here is the schedule for the two conference days.
-;; As this is a global conference, the Schedule is built as a compromise across different time zones.
-;; Hopefully, everybody will be able to attend at least some parts they care about.
+;; Here is the schedule we had for the two conference days.
+;; All times are in [UTC](https://time.is/UTC) time zone.
 
-;; - All times are in [UTC](https://time.is/UTC) time zone.
-;; - All talk durations include the discussion/Q&A part.
-;; - Data analysis talks are all 30 minute talk (some pre-recorded) + 20 minute discussion.
-;; - Background talks and special sessions are often longer.
-;; - A few of the background talks (intro to Noj, intro to probability) will mostly repeat the content of [the prep workshop](https://scicloj.github.io/blog/data-analyis-with-clojure-free-workshop-may-10th-initial-survey/), so you who miss the first part of the day will not miss too much.
-;; - The first day's full recording will be published at the end of that day, so you can review the parts they've missed before the second day.
 
 ^{:clay {:hide-code true}}
 (ns schedule
