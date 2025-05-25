@@ -208,7 +208,8 @@ The session will cover:
             "Customer churn analysis"
             {:session-type :data-analysis
              :speakers [:siavash-mohammady]
-             :abstract "Automatic customer churn data analysis by combination of LLM, logic programming & Noj"}}
+             :abstract "Automatic customer churn data analysis by combination of LLM, logic programming & Noj"
+             :youtube-id "ERvoEvNZTII"}}
  :schedule-drafts {"Draft #5"
                    [{:day :Fri :time "8:00-8:25" :title "Hello"}
                     {:day :Fri :time "8:30-9:20" :title "An intro to the Noj toolkit"}
