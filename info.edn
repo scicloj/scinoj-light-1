@@ -130,7 +130,8 @@
              :abstract
              "This session will offer a brief intro to probability theory concepts and then use them to explain common statistical methods. It will repeat some content from our [May 10th workshop](https://scicloj.github.io/blog/data-analyis-with-clojure-free-workshop-may-10th-initial-survey/) so we can discuss it further at the conference.
 
-"}
+"
+             :youtube-id "O79Zoaw-rHg"}
 
             "An intro to the Noj toolkit"
             {:session-type :background
