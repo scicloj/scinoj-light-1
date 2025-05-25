@@ -10,26 +10,32 @@
   (->> sessions
        (group-by (fn [[_ {:keys [session-type]}]]
                    session-type))
-       (map (fn [[session-type type-sessions]]
-              (str (format "## %s\n"
-                           (case session-type
-                             :special "Special"
-                             :data-analysis "Data analysis stories"
-                             :background "Background knowledge"))
-                   (->> type-sessions
-                        (map (fn [[title {:keys [session-type speakers abstract]}]]
-                               (format "### %s\n%s\n%s\n"
-                                       title
-                                       (->> speakers
-                                            sort
-                                            (utils/people-md {:include-bio false
-                                                              :depth 0
-                                                              :link true
-                                                              :image-height 100}))
-                                       abstract)))
-                        (str/join "\n")))))
-       (str/join "\n")
-       kind/md))
+       (mapcat
+        (fn [[session-type type-sessions]]
+          (cons
+           (kind/md
+            (format "## %s\n"
+                    (case session-type
+                      :special "Special"
+                      :data-analysis "Data analysis stories"
+                      :background "Background knowledge")))
+           (->> type-sessions
+                (mapcat
+                 (fn [[title {:keys [session-type speakers abstract youtube-id]}]]
+                   [(kind/md
+                     (format "### %s\n%s\n\n%s\n"
+                             title
+                             abstract
+                             (->> speakers
+                                  sort
+                                  (utils/people-md {:include-bio false
+                                                    :depth 0
+                                                    :link true
+                                                    :image-height 100}))))
+                    (if youtube-id
+                      (kind/video {:youtube-id youtube-id})
+                      (kind/hidden nil))]))))))
+       kind/fragment))
 
 
 
