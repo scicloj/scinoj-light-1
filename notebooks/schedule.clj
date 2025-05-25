@@ -44,7 +44,8 @@
                             (fn [title]
                               (let [{:keys [session-type
                                             speakers
-                                            abstract]} (sessions title)]
+                                            abstract
+                                            youtube-id]} (sessions title)]
                                 (kind/hiccup
                                  [:div
                                   (if abstract
@@ -53,7 +54,7 @@
                                                              :special "#ffeeff"
                                                              :background "#ffffee"
                                                              :data-analysis "#eeffff"
-                                                             "#ffffff")}} 
+                                                             "#ffffff")}}
                                      [:details {:style {:margin "20px"}}
                                       [:summary title]
                                       [:div
@@ -69,7 +70,8 @@
                                               :image-height 100})
                                             kind/hiccup)
                                        [:br]
-                                       (kind/md abstract)]]]
+                                       (kind/md abstract)]]
+                                     (kind/video {:youtube-id youtube-id})]
                                     title)]))))
                            (tc/select-columns [:time :title])
                            tc/rows
