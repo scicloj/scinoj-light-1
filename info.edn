@@ -103,7 +103,12 @@
          :lorelai-lyons
          :adham-omran
          :daniel-slutsky]
- :sessions {"Building a Data Science Ecosystem in Clojure: Lessons from the Tidyverse"
+ :sessions {"Hello"
+            {:session-type :special
+             :speakers #{:adham-omran :aditya-athalye :kiran-kulkarni :daniel-slutsky}
+             :abstract "Settling in, introducing the conference and the team of hosts"
+             :youtube-id "WekNEXea5Ps"}
+            "Building a Data Science Ecosystem in Clojure: Lessons from the Tidyverse"
             {:session-type :special
              :speakers #{:kira-howe}
              :abstract
@@ -131,7 +136,8 @@
             {:session-type :background
              :speakers #{:daniel-slutsky}
              :abstract 
-             "This session will offer a brief overview of the [Noj](https://scicloj.github.io/noj/) toolkit. It will repeat some content from our [May 10th workshop](https://scicloj.github.io/blog/data-analyis-with-clojure-free-workshop-may-10th-initial-survey/) and mostly offer an opportunity to ask questions."}
+             "This session will offer a brief overview of the [Noj](https://scicloj.github.io/noj/) toolkit. It will repeat some content from our [May 10th workshop](https://scicloj.github.io/blog/data-analyis-with-clojure-free-workshop-may-10th-initial-survey/) and mostly offer an opportunity to ask questions."
+             :youtube-id "OINVSndi9MI"}
 
             "Linear Foundations and Nonlinear Frontiers: A Journey Through Mathematical Methods"
             {:session-type :background
