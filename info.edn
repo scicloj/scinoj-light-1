@@ -152,7 +152,8 @@
              :speakers [:harold :daniel-slutsky]
              :abstract
              "This session is intended to provide the audience with a technical background for the more concrete data analysis sessions in the conference.
- We will introduce a few of the [libraries](https://scicloj.github.io/noj/noj_book.underlying_libraries.html) behind the [Noj](https://scicloj.github.io/noj/) toolkit and practice using them to process, analyse, and visualize real-world data."}
+ We will introduce a few of the [libraries](https://scicloj.github.io/noj/noj_book.underlying_libraries.html) behind the [Noj](https://scicloj.github.io/noj/) toolkit and practice using them to process, analyse, and visualize real-world data."
+             :youtube-id "7Uc5GnYT03A"}
 
             "RAGgedy Ann's Big Adventure"
             {:session-type :background
