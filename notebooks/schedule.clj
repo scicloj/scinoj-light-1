@@ -21,14 +21,14 @@
                                    (tc/group-by :day {:result-type
                                                       :as-map}))]
              [#_(kind/md (format "(%s)\n" draft-name))
-              (kind/md "::: {.panel-tabset}")
+              ;; (kind/md "::: {.panel-tabset}")
               (->> [:Fri :Sat]
                    (mapcat
                     (fn [day]
                       [(kind/md
                         (case day
                           :Fri "### Fri May 16th"
-                          :Sat "### Sat May 17th"))
+                          :Sat "### Sat May 17th\n(recordings coming soon)"))
                        (-> day
                            day->schedule
                            (tc/map-columns
@@ -70,5 +70,6 @@
                            tc/rows
                            (kind/table {:style {:table-layout :auto}}))]))
                    kind/fragment)
-              (kind/md ":::")]))))))
+              ;; (kind/md ":::")
+              ]))))))
 
