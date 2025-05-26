@@ -199,7 +199,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#schedule" id="toc-schedule" class="nav-link active" data-scroll-target="#schedule">Schedule</a></li>
+  <li><a href="#schedule" id="toc-schedule" class="nav-link active" data-scroll-target="#schedule">Schedule</a>
+  <ul>
+  <li><a href="#fri-may-16th" id="toc-fri-may-16th" class="nav-link" data-scroll-target="#fri-may-16th">Fri May 16th</a></li>
+  <li><a href="#sat-may-17th" id="toc-sat-may-17th" class="nav-link" data-scroll-target="#sat-may-17th">Sat May 17th</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -224,10 +228,8 @@ ul.task-list li input[type="checkbox"] {
 <section id="schedule" class="level1">
 <h1>Schedule</h1>
 <p>Here is the schedule we had for the two conference days. All times are in <a href="https://time.is/UTC">UTC</a> time zone.</p>
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Fri May 16th</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Sat May 17th</a></li></ul>
-<div class="tab-content">
-<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<section id="fri-may-16th" class="level3">
+<h3 class="anchored" data-anchor-id="fri-may-16th">Fri May 16th</h3>
 <div class="clay-table">
 <div class="table-responsive">
 <table class="table table-hover clay-table caption-top" data-quarto-postprocess="true">
@@ -242,7 +244,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="rounded" style="background-color:#ffeeff;">
 <details style="margin:20px;">
 <summary>
-Hello
+Hello day 1
 </summary>
 <div>
 <em>(special session)</em>
@@ -595,8 +597,10 @@ Open chat (hosted)
 </table>
 </div>
 </div>
-</div>
-<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+</section>
+<section id="sat-may-17th" class="level3">
+<h3 class="anchored" data-anchor-id="sat-may-17th">Sat May 17th</h3>
+<p>(recordings coming soon)</p>
 <div class="clay-table">
 <div class="table-responsive">
 <table class="table table-hover clay-table caption-top" data-quarto-postprocess="true">
@@ -608,49 +612,7 @@ Open chat (hosted)
 <tr class="odd">
 <td>8:00-8:25</td>
 <td><div style="table-layout:auto;">
-<div class="rounded" style="background-color:#ffeeff;">
-<details style="margin:20px;">
-<summary>
-Hello
-</summary>
-<div>
-<em>(special session)</em>
-<div>
-<div>
-<a href="./speakers.html#adham-omran">Adham Omran</a>
-<div>
-<img src="notebooks/images/Adham.jpeg" height="100">
-</div>
-</div>
-<div>
-<a href="./speakers.html#aditya-athalye">Aditya Athalye</a>
-<div>
-<img src="notebooks/images/Aditya.jpg" height="100">
-</div>
-</div>
-<div>
-<a href="./speakers.html#daniel-slutsky">Daniel Slutsky</a>
-<div>
-<img src="notebooks/images/Daniel.jpeg" height="100">
-</div>
-</div>
-<div>
-<a href="./speakers.html#kiran-kulkarni">Kiran Kulkarni</a>
-<div>
-<img src="notebooks/images/Kiran.jpg" height="100">
-</div>
-</div>
-</div>
-<br>
-
-<div style="table-layout:auto;">
-<p>Settling in, introducing the conference and the team of hosts</p>
-</div>
-</div>
-</details>
-<iframe allowfullscreen="allowfullscreen" src="https://www.youtube.com/embed/WekNEXea5Ps" style="table-layout:auto;">
-</iframe>
-</div>
+Hello day 2
 </div></td>
 </tr>
 <tr class="even">
@@ -887,13 +849,11 @@ Open chat (hosted)
 </table>
 </div>
 </div>
-</div>
-</div>
-</div>
 <div style="background-color:grey;height:2px;width:100%;"></div>
 <div><pre><small><small>source: <a href="https://github.com/scicloj/scinoj-light-1/blob/main/notebooks/schedule.clj">notebooks/schedule.clj</a></small></small></pre></div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
