@@ -161,6 +161,12 @@
              "An introductory session for LLMs, Embeddings, and RAG systems."
              :youtube-id "NXwunJXqfZU"}
 
+            "Discussion: RAGs and structured knowledge"
+            {:session-type :background
+             :speakers #{:siavash-mohammady :paula-gearon :eoin-carney :lorelai-lyons}
+             :abstract "This was an additional discussion by a few of the SciNoj Light #1 speakers and participants, following a few of the talks of the first day. We began with RAGs and then continued to discuss the semantic web, ontologies, etc."
+             :youtube-id "_9QjVjBNxjY"}
+
             "1D Viscous Fluid Flow Data Analysis Using Burgers’ Equation"
             {:session-type :data-analysis
              :speakers #{:siyoung-byun}
@@ -221,7 +227,7 @@ The session will cover:
                     {:day :Fri :time "12:00-13:20" :title "Linear Foundations and Nonlinear Frontiers: A Journey Through Mathematical Methods"}
                     {:day :Fri :time "13:30-14:50" :title "RAGgedy Ann's Big Adventure"}
                     {:day :Fri :time "15:00-15:50" :title "Parliamentary Questions and Answers: Using noj to explore basic RAG techniques"}
-                    {:day :Fri :time "15:50-16:20" :title "RAGs discussion"}
+                    {:day :Fri :time "15:50-16:20" :title "Discussion: RAGs and structured knowledge"}
                     {:day :Fri :time "16:30-16:50" :title "Open chat (hosted)"}
                     {:day :Fri :time "17:00-18:20" :title "Noj deep dive"}
                     {:day :Fri :time "19:00-19:50" :title "Brain Data in Clojure"}
