@@ -103,7 +103,7 @@
          :lorelai-lyons
          :adham-omran
          :daniel-slutsky]
- :sessions {"Hello"
+ :sessions {"Hello day 1"
             {:session-type :special
              :speakers #{:adham-omran :aditya-athalye :kiran-kulkarni :daniel-slutsky}
              :abstract "Settling in, introducing the conference and the team of hosts"
@@ -222,7 +222,7 @@ The session will cover:
              :abstract "Automatic customer churn data analysis by combination of LLM, logic programming & Noj"
              :youtube-id "ERvoEvNZTII"}}
  :schedule-drafts {"Draft #5"
-                   [{:day :Fri :time "8:00-8:25" :title "Hello"}
+                   [{:day :Fri :time "8:00-8:25" :title "Hello day 1"}
                     {:day :Fri :time "8:30-9:20" :title "An intro to the Noj toolkit"}
                     {:day :Fri :time "9:30-10:50" :title "An intro to probability and statistics"}
                     {:day :Fri :time "11:00-11:50" :title "Customer churn analysis"}
@@ -234,7 +234,7 @@ The session will cover:
                     {:day :Fri :time "17:00-18:20" :title "Noj deep dive"}
                     {:day :Fri :time "19:00-19:50" :title "Brain Data in Clojure"}
                     {:day :Fri :time "20:00-20:50" :title "Open chat (hosted)"}
-                    {:day :Sat :time "8:00-8:25" :title "Hello"}
+                    {:day :Sat :time "8:00-8:25" :title "Hello day 2"}
                     {:day :Sat :time "8:30-8:50" :title "Open chat (hosted)"}
                     {:day :Sat :time "9:00-9:50" :title "1D Viscous Fluid Flow Data Analysis Using Burgers’ Equation"}
                     {:day :Sat :time "10:00-10:50" :title "UK Electricity Demand Time Series Forecasting"}
