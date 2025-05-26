@@ -158,7 +158,8 @@
             {:session-type :background
              :speakers #{:paula-gearon}
              :abstract
-             "An introductory session for LLMs, Embeddings, and RAG systems."}
+             "An introductory session for LLMs, Embeddings, and RAG systems."
+             :youtube-id "NXwunJXqfZU"}
 
             "1D Viscous Fluid Flow Data Analysis Using Burgers’ Equation"
             {:session-type :data-analysis
