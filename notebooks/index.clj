@@ -12,7 +12,7 @@
 ;; * May 10 - we had a [preparation workshop](/workshop.html): data analysis in Clojure
 ;; * May 16-17 - Conference
 ;;   * 📅 [Event](https://clojureverse.org/t/scinoj-light-1st-conference/)
-;;   * ⏰ [Schedule](./schedule.html)
+;;   * ⏰ 🎥 [Schedule & recordings](./schedule.html) 🌟
 
 ;; ## Recordings
 
