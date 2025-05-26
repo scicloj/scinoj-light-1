@@ -1,4 +1,4 @@
-;; # Schedule
+;; # Schedule & recordings
 
 ;; Here is the schedule we had for the two conference days.
 ;; All times are in [UTC](https://time.is/UTC) time zone.
