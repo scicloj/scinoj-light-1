@@ -202,7 +202,8 @@ The session also invites a broader conversation about the ethical implications o
             "The Impact of Lane Reductions: A Data-Driven Look at Oakland Streets"
             {:session-type :data-analysis
              :speakers #{:heather-moore-farley}
-             :abstract "The City of Oakland has done work to implement traffic calming measures on many of their streets. Do these reduce crashes and injuries? This talk with analyze the impact of lane reductions and addition of bike lanes and bus loading islands by examining crash data before and after the redesign in of Telegraph Ave in 2021. Then, I’ll look at Grand Avenue, which has not received any traffic calming measures, to explore who is currently most affect by traffic violence and who could benefit from similar interventions."}
+             :abstract "The City of Oakland has done work to implement traffic calming measures on many of their streets. Do these reduce crashes and injuries? This talk with analyze the impact of lane reductions and addition of bike lanes and bus loading islands by examining crash data before and after the redesign in of Telegraph Ave in 2021. Then, I’ll look at Grand Avenue, which has not received any traffic calming measures, to explore who is currently most affect by traffic violence and who could benefit from similar interventions."
+             :youtube-id "3HZ5rngHzWM"}
 
             "Tropical cyclone trajectory modelling"
             {:session-type :data-analysis
