@@ -216,7 +216,8 @@ The session will cover:
 * Understanding the Data
 * Feature Engineering
 * Machine Learning Modeling
-* Model Selection and Evaluation"}
+* Model Selection and Evaluation"
+             :youtube-id "wdjtHjvtGUQ"}
             "Customer churn analysis"
             {:session-type :data-analysis
              :speakers [:siavash-mohammady]
