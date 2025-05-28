@@ -195,7 +195,8 @@ The session also invites a broader conversation about the ethical implications o
             {:session-type :data-analysis
              :speakers #{:cvetomir-m-dimov}
              :abstract
-             "Tik Tik is a novel video game that we developed to study individual and collaborative planning. Here we use this video game to study individual planning. We developed multiple levels for this task and tested these levels in a series of studies. These studies allowed us to identify a set of levels that lie within the capabilities of the general population. Moreover, they allowed us to determine level parameters that determine level difficulty."}
+             "Tik Tik is a novel video game that we developed to study individual and collaborative planning. Here we use this video game to study individual planning. We developed multiple levels for this task and tested these levels in a series of studies. These studies allowed us to identify a set of levels that lie within the capabilities of the general population. Moreover, they allowed us to determine level parameters that determine level difficulty."
+             :youtube-id "GbqerAZmjco"}
 
             "The Impact of Lane Reductions: A Data-Driven Look at Oakland Streets"
             {:session-type :data-analysis
