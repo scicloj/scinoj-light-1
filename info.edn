@@ -114,7 +114,8 @@
              :abstract
              "The Tidyverse transformed data science in R — not just by providing better tools, but by uniting them under a shared philosophy. Clojure, with its immutable data structures, functional paradigm, REPL-driven development, and a community that values simplicity and composability, is uniquely positioned to take these ideas even further. What we’re building isn’t just a set of libraries, it’s a new way of thinking about data.
 
- This talk is about how we get there, together. We’ll explore the principles that have guided the evolution of Scicloj, the challenges we’ve encountered, and the opportunities ahead. From our grassroots beginnings to a future of powerful, unified tools, this is a call to help shape the next chapter, and to imagine what data science and data engineering can become when they're built the Clojure way."}
+ This talk is about how we get there, together. We’ll explore the principles that have guided the evolution of Scicloj, the challenges we’ve encountered, and the opportunities ahead. From our grassroots beginnings to a future of powerful, unified tools, this is a call to help shape the next chapter, and to imagine what data science and data engineering can become when they're built the Clojure way."
+             :youtube-id "d6wWL1I2POE"}
 
             "macroexpand-1"
             {:session-type :special
