@@ -205,7 +205,8 @@ The session also invites a broader conversation about the ethical implications o
             "Tropical cyclone trajectory modelling"
             {:session-type :data-analysis
              :speakers [:naimish-mani-b :k-ram-narayan]
-             :abstract "Tropical Cyclone's happen every year and claim hundreds of lives and billions in damages. Accurate cyclone track forecasting is crucial for disaster preparedness and mitigation. Timely predictions help authorities issue early warnings, evacuate affected areas, and minimize economic and human losses. This project focuses on forecasting cyclone tracks using historical data from the India Meteorological Department (IMD) and Wind Velocity Vectors calculated using EUMETSAT's METEOSAT-7 data."}
+             :abstract "Tropical Cyclone's happen every year and claim hundreds of lives and billions in damages. Accurate cyclone track forecasting is crucial for disaster preparedness and mitigation. Timely predictions help authorities issue early warnings, evacuate affected areas, and minimize economic and human losses. This project focuses on forecasting cyclone tracks using historical data from the India Meteorological Department (IMD) and Wind Velocity Vectors calculated using EUMETSAT's METEOSAT-7 data."
+             :youtube-id "RrgxbCyECVw"}
             "UK Electricity Demand Time Series Forecasting"
             {:session-type :data-analysis
              :speakers [:anton-lobach]
