@@ -172,7 +172,8 @@
             {:session-type :data-analysis
              :speakers #{:siyoung-byun}
              :abstract
-             "In this talk, I will share my early exploration into simulating and analyzing viscous fluid flow using the 1D Burgers’ equation as the beginning of my journey in computational fluid dynamics (CFD). I will walk through how I implemented the Burgers’ equation solver in 1-D in Clojure, referenced from the 12-step CFDPython series (https://github.com/barbagroup/CFDPython). Using data generated from my simulation, I will demonstrate how shock structures are smoothed by viscosity and how nonlinear interactions evolve over time. Along the way, I will reflect on the process of learning the essence of the Burgers’ equation, then implementing it in a functional programming paradigm, and close with a glimpse of future directions, including extending these ideas toward multidimensional simulations and more complex flow behavior."}
+             "In this talk, I will share my early exploration into simulating and analyzing viscous fluid flow using the 1D Burgers’ equation as the beginning of my journey in computational fluid dynamics (CFD). I will walk through how I implemented the Burgers’ equation solver in 1-D in Clojure, referenced from the 12-step CFDPython series (https://github.com/barbagroup/CFDPython). Using data generated from my simulation, I will demonstrate how shock structures are smoothed by viscosity and how nonlinear interactions evolve over time. Along the way, I will reflect on the process of learning the essence of the Burgers’ equation, then implementing it in a functional programming paradigm, and close with a glimpse of future directions, including extending these ideas toward multidimensional simulations and more complex flow behavior."
+             :youtube-id "RXr9i-aw0lM"}
 
             "Brain Data in Clojure"
             {:session-type :data-analysis
