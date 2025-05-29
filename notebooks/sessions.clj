@@ -21,10 +21,15 @@
                       :background "Background knowledge")))
            (->> type-sessions
                 (mapcat
-                 (fn [[title {:keys [session-type speakers abstract youtube-id]}]]
+                 (fn [[title {:keys [session-type speakers abstract youtube-id
+                                     notebook-url notebook-status]}]]
                    [(kind/md
-                     (format "### %s\n%s\n\n%s\n"
+                     (format "### %s\n%s %s\n\n%s\n\n%s\n"
                              title
+                             (str (some->> notebook-url
+                                           (format "📖 [notebook](%s)")))
+                             (str (some->> notebook-status
+                                           (format "(status: %s)")))
                              abstract
                              (->> speakers
                                   sort
