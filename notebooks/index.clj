@@ -8,6 +8,9 @@
 
 ;; It was a first in a series of conferences that will explore new fields and use case for Clojure, and specifically the [Noj](https://scicloj.github.io/noj/) data science toolkit.
 
+;; ## Notes
+;; See the [conference summary](https://clojurecivitas.github.io/conferences/scinoj_light_1/notes/hallway_track.html) that was published by Timothy Pratley at [ClojureCivitas](https://clojurecivitas.github.io/).
+
 ;; ## Timeline
 ;; * May 10 - we had a [preparation workshop](/workshop.html): data analysis in Clojure
 ;; * May 16-17 - Conference
