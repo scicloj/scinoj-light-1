@@ -123,7 +123,8 @@
              "This will be the first meeting in the new series of [macroexpand gatherings](https://scicloj.github.io/docs/community/groups/macroexpand/). 
  It will focus on initiating new projects of research/teaching/implementation/documentation/study group, that we will be running towards the next SciNoj conference later this year.
 
- The session will begin by a few brief experience reports and proposals by participants. Then we will expand the discussion till we converge to actionable steps we will follow up on."}
+ The session will begin by a few brief experience reports and proposals by participants. Then we will expand the discussion till we converge to actionable steps we will follow up on."
+             :youtube-id "2TY6cJ8YiwU"}
 
             "An intro to probability and statistics"
             {:session-type :background
