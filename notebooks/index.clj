@@ -8,6 +8,10 @@
 
 ;; It was a first in a series of conferences that will explore new fields and use case for Clojure, and specifically the [Noj](https://scicloj.github.io/noj/) data science toolkit.
 
+;; Your feedback will help plan the next conferences:
+
+;; <a class="btn btn-primary btn-lg px-4 mb-2 rounded" href="https://bit.ly/scinoj-light-1-survey" role="button">Feedback survey</a>
+
 ;; ## Notes
 ;; See the 📖 [conference summary](https://clojurecivitas.github.io/conferences/scinoj_light_1/notes/hallway_track.html) that was published by Timothy Pratley at [ClojureCivitas](https://clojurecivitas.github.io/).
 
