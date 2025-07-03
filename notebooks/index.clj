@@ -6,7 +6,7 @@
 
 ;; SciNoj Light #1 was an online conference where Clojurians shared their short-term data analysis stories.
 
-;; It was a first in a series of conferences that will explore new fields and use case for Clojure, and specifically the [Noj](https://scicloj.github.io/noj/) data science toolkit.
+;; It was a first in a series of conferences that will explore new fields and use case for Clojure. This time, we focused on the [Noj](https://scicloj.github.io/noj/) data science toolkit. 
 
 ;; Your feedback will help plan the next conferences:
 
